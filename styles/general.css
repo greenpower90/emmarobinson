@@ -53,13 +53,7 @@ a, a:hover, a:active, a:visited, a:focus {
   max-width: 600px;
 }
 
-@media (max-width:1000px){
-  .main-picture{
-    height: 0; 
-    padding-bottom: 55%; 
-    width: 100%
-  }
-}
+
 
 .quote-updates-container{
   display: grid;
@@ -120,32 +114,6 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 
-
-
-
-
-
-
-
-@media (max-width:700px){
-  .quote-updates-container{
-    grid-template-columns: 1fr;
-    row-gap: 10px;
-    width: 100%;
-  }
-}
-
-@media (max-width:700px){
-  .quote-container{
-    font-size: 16px;
-  }
-}
-
-@media (max-width:1000px){
-  .articles-bottom-left-grid{
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 
 
@@ -316,29 +284,7 @@ a, a:hover, a:active, a:visited, a:focus {
   color: rgb(46, 46, 46);
 }
 
-@media (max-width:700px){
-  .web-title{
-    font-size: 22px;
-  }
-  .under-title{
-    font-size: 16px;
-  }
-}
 
-.home-icon{
-  width: 20px;
-  margin-right: 4px;
-}
-
-@media (max-width:700px){
-  .inspirace-container{
-    grid-template-columns: 1fr 1fr;
-  }
-  .inspiration-overview{
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
 
 .main-picture-small{
   max-width: 100%;
@@ -457,20 +403,8 @@ a, a:hover, a:active, a:visited, a:focus {
 /* začátek spodní části (články+menu) */
 
 
-@media (max-width:700px){
-  .bottom-part-main-grid{
-    grid-template-columns: 1fr;
-    
-    }
 
 
-  .article-title{
-    font-size: 20px;
-  }
-  .article-overview{
-    font-size: 16px;
-  }
-}
 
   .video{
     margin-top: 40px;
@@ -500,25 +434,8 @@ a, a:hover, a:active, a:visited, a:focus {
     column-gap: 30px;
   }
 
-  @media (max-width:700px){
-    .article-grid{
-      grid-template-columns: 1fr;
-      row-gap: 30px;
-    }
-  }
 
-  .cathegory-all-articles-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
 
-  }
-
-  @media (max-width:700px){
-    .cathegory-all-articles-grid{
-      grid-template-columns: 1fr;
-    }
-  }
   .karavan-picture-top{
     width: 100%;
     margin-bottom: 30px;
@@ -578,3 +495,94 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration: underline;
   }
 
+  @media (max-width:700px){
+    .article-grid{
+      grid-template-columns: 1fr;
+      row-gap: 30px;
+    }
+  }
+
+  .cathegory-all-articles-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+
+  }
+
+  @media (max-width:700px){
+    .cathegory-all-articles-grid{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width:700px){
+    .bottom-part-main-grid{
+      grid-template-columns: 1fr;
+      
+      }
+  
+  
+    .article-title{
+      font-size: 20px;
+    }
+    .article-overview{
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width:700px){
+    .web-title{
+      font-size: 22px;
+    }
+    .under-title{
+      font-size: 16px;
+    }
+  }
+  
+  .home-icon{
+    width: 20px;
+    margin-right: 4px;
+  }
+  
+  @media (max-width:700px){
+    .inspirace-container{
+      grid-template-columns: 1fr 1fr;
+    }
+    .inspiration-overview{
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  
+  @media (max-width:1000px){
+    .main-picture{
+      height: 0; 
+      padding-bottom: 55%; 
+      width: 100%
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media (max-width:700px){
+    .quote-updates-container{
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:700px){
+    .quote-container{
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width:1000px){
+    .articles-bottom-left-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
