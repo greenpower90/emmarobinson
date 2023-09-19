@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>inspiration - template</title>
+
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="stylesheet" href="styles/header.css">
+
+      <!--Meta viewport nastaven pro upravení stránek pro mobilní zařízení-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!--Fonty-->
+      <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+       <!--horní lišta-->
+      <header class="header">
+        <div class="header-container" >
+          <div class="header-part">
+            <a href="index.html">
+              <div class="header-home-container"> 
+                <img class="home-icon" src="/icons/home.png"> 
+                <p>Home</p>
+              </div>
+            </a>
+            <div style="padding-left: 5px ;"> &#62;&#62;</div>
+          </div>
+          <div class="header-part">
+            <a href="/inspiracion-articles/inspirace-all.html">
+              <div class="header-home-container">  
+                <p>Inspirace</p>
+              </div>
+            </a>
+            <div style="padding-left: 5px ;"> &#62;&#62;</div>
+          </div>
+          <div class="header-part">
+            <!--vložit odkaz na článek do href níže-->
+            <a href="">
+              <div class="header-home-container"> 
+                <p>Název článku </p>
+              </div>
+            </a>
+          </div>         
+        </div>
+      </header>
+      <!--horní fotka jako odkaz na home-page-->
+      <main class="page">
+        <div class="content-article">
+          <div style="width:100%">
+            <a href="index.html"> 
+              <img class="main-picture-small" src="/pictures/main-picture-small.png">
+            </a>
+          </div>
+          <!--rozdělení článku a MENU-->
+          <div class="article-grid">
+            <!--článek-->
+            <div class="article-part">
+              <div class="category">Inspirace</div>
+              <!--vložit text článku-->
+              <p class="article-text">
+                Text článku Text článku Text článku Text článku Text článku 
+                Text článku Text článku Text článku Text článku Text článku 
+                Text článku Text článku Text článku Text článku Text článku 
+                Text článku Text článku Text článku Text článku Text článku 
+                Text článku Text článku Text článku Text článku Text článku 
+              </p>
+              <div class="author-and-date-container">
+                <!--vložit autora a datum článku-->
+                <div class="author-of-article">By Emma</div>
+                <div class="date-of-article">červen 2020</div>
+              </div>
+              <!--pokud někoho cituji, tak uvolním paragraf níže-->
+          <!-- <p class="citace">(Tracyho tygr)</p> -->
+              <img class="picture-osud" src="/pictures/Untitled.png" >
+            </div>
+            
+            <!--Menu-->
+            <nav>
+              <script id="replace_with_navbar" src="nav.js"></script>
+            </nav>
+          </div>
+        </div>
+      </main>
+    </body>
+  </html>
