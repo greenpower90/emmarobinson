@@ -96,16 +96,18 @@ a, a:hover, a:active, a:visited, a:focus {
     bottom: 10px;
     right: 10px;
     cursor: pointer;
-    height: 25px; 
-    box-shadow: -3px -3px 1px rgb(255, 255, 255);
+    height: 20px; 
+    box-shadow: -3px -3px 3px rgb(255, 255, 255);
     border: 1px solid rgb(235, 235, 235);
     border-radius: 20px;
+    width: 30px;
 
 }
 .button-citat:active{
   box-shadow: none;
   bottom: 11px;
     right: 11px;
+    border: 1px solid white;
 }
 
 .updates-container{
