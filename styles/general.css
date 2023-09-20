@@ -243,6 +243,8 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .article-grid{
   padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .inside-article-title{
@@ -262,7 +264,7 @@ a, a:hover, a:active, a:visited, a:focus {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 950px;
+  max-width: 1000px;
   padding-top: 25px;
 }
 
