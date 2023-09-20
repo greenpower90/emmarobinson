@@ -16,7 +16,7 @@ window.onload = function (){
 const quotes = [{
   quote: `"Nic jiného, než energie čisté lásky a radosti nemůže dítěti pomoci v překonáni jeho karmy. Naše bezpodmínečná láska mu umožní pocit , že je plnohodnotným člověkem.."`,
   writer: ``
-}, {
+}, {  
   quote: `"Nemohl se mnou mluvit, Nemohl mi nic vysvětlit slovy. Avšak jeho srdce, dokonale živé, plné lásky, kterou mohl dávat a přijímat, z něj činilo bytost žijící plným životem."`,
   writer: `(z knihy Adam boží miláček, Henry J.M.Nouwen)`
 }, {
@@ -36,7 +36,7 @@ const quotes = [{
   writer: ``
 },{
 
-  quote: `"Trápení něhou povolí "`,
+  quote: `"Trápení něhou povolí"`,
   writer: ``
 },{
 

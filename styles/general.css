@@ -1,4 +1,8 @@
+body{
+  
+  margin:0;
 
+}
 
 div{
   font-family: 'Muli', serif;
@@ -45,7 +49,8 @@ a, a:hover, a:active, a:visited, a:focus {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  
+ /* background-image: linear-gradient(white, rgba(222, 254, 254, 0.547));
+  */
 }
 
 .home-picture{
@@ -92,8 +97,10 @@ a, a:hover, a:active, a:visited, a:focus {
     right: 10px;
     cursor: pointer;
     height: 25px; 
-    box-shadow: -1px -1px 3px rgb(208, 208, 208);
-    border: 1px solid rgb(242, 242, 242);
+    box-shadow: -3px -3px 1px rgb(255, 255, 255);
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 20px;
+
 }
 .button-citat:active{
   box-shadow: none;
@@ -195,6 +202,8 @@ a, a:hover, a:active, a:visited, a:focus {
   display: grid;
   grid-template-columns: 3fr 1fr;
   column-gap: 15px;
+  background-color: white;
+  padding: 20px;
 }
 
 .continue-reading-container{
@@ -277,7 +286,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .web-title{
   font-size: 30px;
-  color: rgb(46, 46, 46);
+  /*color: rgb(46, 46, 46);*/
 }
 
 .under-title{
