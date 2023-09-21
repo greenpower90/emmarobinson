@@ -54,10 +54,24 @@ const quotes = [{
 
   quote: `"Mylně věříme, že odvaha vyžaduje oběti. Ve skutečnosti, však největší oběť vyžaduje zbabělost."`,
   writer: `(Odvážné snění - Albert Villoldo)`
+},{
+
+  quote: `"Sebeúcta není ničím, čeho bychom mohli dosáhnout tvrdou prací, nýbrž je to trvalá ochota setkat se se životem čelem. Sebeúcta je schopnost říci: Na tohle mám. Mám, co si život žádá"`,
+  writer: ``
+},{
+
+  quote: `"DOMOV  je tam, kde přijímají vaše dary."`,
+  writer: ``
+},{
+
+  quote: `"Omezeni navenek vždy vyvolá pohyb uvnitř."`,
+  writer: ``
 },
  ]
 
- let btn = document.querySelector("#Qbtn");
+//let btn = document.querySelector("#Qbtn");
+let btnn = document.querySelector("#Nbtn")
+let btnp = document.querySelector("#Pbtn")
 
 let quote = document.querySelector(".quote");
 
@@ -72,12 +86,23 @@ let writer = document.querySelector(".writer");
   quote.innerHTML = quotes[random].quote;
   writer.innerHTML = quotes[random].writer;
   
-  btn.addEventListener("click", function() {
-    let random = Math.floor(Math.random() * quotes.length);
+  btnn.addEventListener("click", function() {
+    random = random + 1;
+    random = random % quotes.length;
     quote.innerHTML = quotes[random].quote;
     writer.innerHTML = quotes[random].writer;
   })
 
-}
+  btnp.addEventListener("click", function() {
+    random = random - 1;
+    random = random % quotes.length;
+    quote.innerHTML = quotes[random].quote;
+    writer.innerHTML = quotes[random].writer;
+    if (random === 0) { // i would become 0
+      random = quotes.length; // so put it at the other end of the array
+  }
+  })
 
   
+}
+
