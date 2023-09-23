@@ -11,7 +11,8 @@ window.onload = function (){
   'Images/9.jpg',
   'Images/10.jpg',
   'Images/11.jpg',
-  'Images/12.jpg'
+  'Images/12.jpg',
+  'Images/13.jpg'
 ];
 const quotes = [{
   quote: `"Nic jiného, než energie čisté lásky a radosti nemůže dítěti pomoci v překonáni jeho karmy. Naše bezpodmínečná láska mu umožní pocit , že je plnohodnotným člověkem.."`,
