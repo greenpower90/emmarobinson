@@ -179,22 +179,36 @@ a, a:hover, a:active, a:visited, a:focus {
   row-gap: 20px;
 }
 
+.pic-test{
+  width:100%;
+}
 
 .article-container{
 
 
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
   padding: 5px 5px;
-  max-height: 600px;
+  grid-row: span 2;
 }
 
 .article-container:hover{
   box-shadow: 0px 0px 3px gray;
-  border-radius: 10px;
+  border-radius: 2px;
 }
+
+.tall{
+  grid-row: span 3;
+}
+
+.small{
+  grid-row: span 1;
+}
+
+.middle{
+  grid-row: span 3;
+}
+
 
 .category{
   color: rgb(160, 1, 1);
@@ -219,13 +233,13 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .article-overview{
-  height: 100%;
   font-size: 18px;
   line-height: 22px;
   color: rgb(0, 0, 0);
   font-weight: 400;
   cursor: pointer;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .author-and-date-container{
@@ -249,6 +263,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .continue-reading-container{
   display: block;
+  text-align: center;
 
 }
 .continue-reading-link{
@@ -265,18 +280,24 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .articles-bottom-left-grid{
   display: grid;
+  padding-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  height: fit-content;
-  column-gap: 5px;
-  row-gap: 30px;
+  column-gap: 20px;
+  row-gap: 5px;
+}
+
+.article-container-top{
+  display: flex; 
+  justify-content: space-between;
 }
 
 .article-title{
   font-size: 22px;
+  text-align: center;
   line-height: 30px;
   color: rgb(0, 0, 0);
   font-weight: 500;
-  margin-bottom: 20px;
+  padding: 10px 0px;
   cursor: pointer;
 }
 
@@ -291,6 +312,12 @@ a, a:hover, a:active, a:visited, a:focus {
   line-height: 30px;
   color: rgb(0, 0, 0);
   font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.article-top-picture{
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -324,6 +351,10 @@ a, a:hover, a:active, a:visited, a:focus {
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 36px
+}
+
+.h2{
+  margin-bottom: 5px;
 }
 
 
@@ -640,6 +671,14 @@ a, a:hover, a:active, a:visited, a:focus {
       grid-template-columns: 1fr 1fr;
     }
   }
+
+  @media (max-width:700px){
+    .articles-bottom-left-grid{
+      grid-template-columns: 1fr;
+    }
+  }
+
+
   .rozhlas-grid{
     display: grid; 
     grid-template-columns: 1.5fr 1fr; 
