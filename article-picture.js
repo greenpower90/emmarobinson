@@ -7,6 +7,9 @@ function showImage(imageSrc) {
   imagePopup.style.display = "block";
   document.body.style.overflow = "hidden";
   }
+
+  
+
   // function to hide the image when we click on cross button
   function closeImage() {
   let imagePopup = document.getElementById("imagePopup");

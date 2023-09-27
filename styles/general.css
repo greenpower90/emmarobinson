@@ -311,7 +311,7 @@ a, a:hover, a:active, a:visited, a:focus {
   font-size: 26px;
   line-height: 30px;
   color: rgb(0, 0, 0);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -348,16 +348,23 @@ a, a:hover, a:active, a:visited, a:focus {
   
   color: rgb(0, 0, 0);
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 18px;
   line-height: 36px
+}
+
+.nadpis{
+  margin-top: 20px;
 }
 
 .h2{
   margin-bottom: 5px;
 }
 
-
+.textcenter{
+  text-align: center;
+  max-width: 500px;
+}
 
 .web-title{
   font-size: 30px;
@@ -482,6 +489,9 @@ a, a:hover, a:active, a:visited, a:focus {
   }
 }
 
+.nav-article{
+  padding-top: 47px;
+}
 
 
 /* konec MENU*/
@@ -551,7 +561,7 @@ a, a:hover, a:active, a:visited, a:focus {
     grid-template-columns: 1fr 1fr 1fr; 
     column-gap: 10px; 
     margin-bottom: 10px;
-    row-gap: 50px;
+    row-gap: 10px;
   }
 
   @media (max-width:700px){
