@@ -363,7 +363,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .textcenter{
   text-align: center;
-  max-width: 500px;
+  width: 100%;
 }
 
 .web-title{
