@@ -1,1 +1,48 @@
 
+.patka{
+  border-top: 1px solid rgb(209, 209, 209); 
+  width: 100%; margin-top: 40px; 
+  padding: 10px 0px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.patka-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: gray; 
+  padding-left: 10%;
+  
+}
+
+.patka-middle{
+  padding-top: 3px;
+  color: gray;
+}
+
+.patka-right{
+  color: gray; 
+  padding-right: 10%;
+}
+
+@media (max-width:700px){
+  .patka{
+    flex-direction: column;
+    align-items: center;
+  }
+  .patka-left{
+    padding-left: 0;
+    text-align: center;
+  }
+  .patka-middle{
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .patka-right{
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}
