@@ -197,6 +197,8 @@ a, a:hover, a:active, a:visited, a:focus {
   border-radius: 2px;
 }
 
+
+
 .tall{
   grid-row: span 3;
 }
@@ -251,6 +253,12 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .author-of-article{
   padding-right: 15px;
+}
+
+.article-container.vyznani:hover{
+  box-shadow: none;
+  border: none;
+  cursor:auto;
 }
 
 .bottom-part-main-grid{
