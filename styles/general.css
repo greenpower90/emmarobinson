@@ -258,8 +258,9 @@ a, a:hover, a:active, a:visited, a:focus {
 .article-container.vyznani:hover{
   box-shadow: none;
   border: none;
-  cursor:auto;
 }
+
+
 
 .bottom-part-main-grid{
   display: grid;
@@ -584,7 +585,7 @@ a, a:hover, a:active, a:visited, a:focus {
     grid-template-columns: 1fr 1fr; 
     column-gap: 10px; 
     margin-bottom: 10px;
-    row-gap: 50px;
+    row-gap: 20px;
   }
 
 @media (max-width:700px){

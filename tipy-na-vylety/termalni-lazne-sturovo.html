@@ -12,6 +12,7 @@
 
       <link rel="stylesheet" href="../styles/general.css">
       <link rel="stylesheet" href="../styles/header.css">
+      <link rel="stylesheet" href="../styles/image.css">
 
       <!--Meta viewport nastaven pro upravení stránek pro mobilní zařízení-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -160,12 +161,29 @@
                   <div class="date-of-article">září 2020</div><!--vyplnit-->
                 </div>
                
+                <iframe class="video" width="100%" height="300"
+                  src="https://www.youtube.com/embed/EfsK2WIogTo" allowfullscreen>
+                  
+                </iframe>
 
+                <div class="picture-grid-typ-two" style="margin-top: 30px;">
+                  <img src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-1.jpeg" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" onclick="showImage(src)">
+                  <img src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-2.jpeg" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" onclick="showImage(src)">
+                  <img src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-3.jpeg" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" onclick="showImage(src)">
+                  <img src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-4.jpeg" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" onclick="showImage(src)">
+                </div>
+
+                
+                
+                <!-- Image containter where image will show in big size -->
+                <div class="image-popup-container" id="imagePopup">
+                  <span class="close-button" onclick="closeImage()">×</span>
+                  <img src="" alt="Popup Image" id="popupImage">
+                </div>
+
+                <script src="../article-picture.js"></script>
               
-                <img style="width: 100%; object-fit: cover;" src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-1.jpeg">
-                <img style="width: 100%; object-fit: cover;" src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-2.jpeg">
-                <img style="width: 100%; object-fit: cover;" src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-3.jpeg">
-                <img style="width: 100%; object-fit: cover;" src="../pictures/termalni-lazne-sturovo/termalni-lazne-sturovo-4.jpeg">
+                
               </div>
               <!--začátek kódu pro MENU - Menu se nahrává přes JavaScript-->
               <nav class="nav-article">
