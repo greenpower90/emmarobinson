@@ -203,6 +203,7 @@ a, a:hover, a:active, a:visited, a:focus {
   grid-row: span 3;
 }
 
+
 .small{
   grid-row: span 1;
 }
@@ -408,7 +409,7 @@ a, a:hover, a:active, a:visited, a:focus {
   margin-bottom: 40px;
   width: 100%;
   max-width: 600px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   flex:1;
   border: 1px solid rgb(206, 206, 206);
 }
@@ -432,6 +433,11 @@ a, a:hover, a:active, a:visited, a:focus {
   vertical-align: text-top;
   font-size: 15px;
   
+}
+
+.aktualita{
+  padding: 0;
+  padding-top: 10px;
 }
 
 .menu-bottom-media{
@@ -490,6 +496,20 @@ a, a:hover, a:active, a:visited, a:focus {
 .menu-item:hover{
   color: rgb(207, 10, 10);
   text-decoration: underline;
+}
+
+.aktualni-sbirka{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  position: relative; 
+  width: 100%;
+  background-color: #250d61; 
+  height: 200px;
+}
+
+.aktualni-sbirka:hover{
+  background-color: #381492;
 }
 
 @media (max-width:1100px){
