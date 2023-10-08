@@ -124,6 +124,12 @@ a, a:hover, a:active, a:visited, a:focus {
     border: 1px solid white;
 }
 
+.aktualita-top{
+  font-size: 35px;
+  color: white; 
+  text-align: center;
+}
+
 .updates-container{
   display: flex;
   flex-direction: column;
@@ -717,6 +723,11 @@ a, a:hover, a:active, a:visited, a:focus {
     }
   }
 
+  @media (max-width:450px){
+    .aktualita-top{
+      font-size: 20px;
+    }
+  }
 
   .rozhlas-grid{
     display: grid; 
