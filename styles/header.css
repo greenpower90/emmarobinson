@@ -1,0 +1,23 @@
+.header-container{
+  display: flex;
+  position: fixed;
+  right:0;
+  left:0;
+  top:0;
+  height: 40px;
+  background-color: white;
+}
+
+.header-part{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px ;
+}
+
+.header-home-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: darkred;
+}

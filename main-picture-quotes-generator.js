@@ -68,6 +68,11 @@ const quotes =
   quote: `"Omezeni navenek vždy vyvolá pohyb uvnitř."`,
   writer: ``
   },
+  {
+
+    quote: `"Bez jedinýho slova tě naučim všechno, co potřebuješ vědět o tomto světě."`,
+    writer: `Kuba z Duba`
+    },
 ]
 
 

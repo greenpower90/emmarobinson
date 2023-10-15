@@ -1,7 +1,6 @@
 <!DOCTYPE html>
   <html>
-    <head>
-      
+    <head> 
       <title>Emma Robinson & Kuba z Duba</title>
 
       <!--Meta property og nastaven pro zobrazení fotky při sdílení na soc. sítích.-->
@@ -23,664 +22,597 @@
       <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
+      
     </head>
-    <body>
-      <main>
-        <div class="page">
-          <div class="content">
-            <!--top container obsahuje hlavní fotku a popisek-->
-            <div class="top-container">
-              
+    <body>   
+      <div class="page">
+          <div class="top-container"><!--top container obsahuje hlavní fotku, popisek a citát-->
+            
+            <mainpicture class="main-picture">
+              <!--Here will be displayed random main picture based on the javascript-->  
+            </mainpicture>
 
-              <mainpicture class="main-picture">
-                
-                <!--Here will be displayed random main picture based on the javascript-->
-                
-              </mainpicture>
-               
-              
-
-              <p class="web-title">Emma Robinson & Kuba z Duba</p>
-              <p class="undertitle">Neuvěřitelná dobrodružství od plotny</p>
-
-              <div style="
-                display: flex; 
-                flex-direction: column; 
-                position: relative;
-                min-height: 200px; 
-                width: 80%; 
-                max-width: 600px;
-                text-align: center;
-                font-style: italic;
-                border-radius: 10px;
-                font-size: 18px;
-                padding-top: 20px;
-                padding-left: 20px;
-                padding-right: 20px;
-                padding-bottom: 25px;
-                justify-content:center;
-                ">
-
+            <p class="web-title">Emma Robinson & Kuba z Duba</p>
+            <p class="undertitle">Neuvěřitelná dobrodružství od plotny</p>
+            
+            <!--div-quote - náhodný citát + tlačítka na posuv citátů-->
+            <div class="div-quote">
               <div class="quote"><!--Here will be displayed random quote based on the javascript-->
               </div>
               <div class="writer"><!--Here will be displayed author of random quote based on the javascript--> 
               </div>
+
               <img src="../icons/arrow_next_right_icon.png" class="button-citat-right" id="Nbtn" onclick="nextQuote()">
               <img src="../icons/arrow_next_left_icon.png" class="button-citat-left" id="Pbtn" onclick="previousQuote()">
-              
             </div>
-            
-            
-            
-            
-          
+
             <!--javascript pro generování hlavní fotky a citátů-->
             <script src="../main-picture-quotes-generator.js"></script>
-            <!-- <script type="text/javascript"></script>-->
-
-              
-            </div>
-
-            
-              
-              
-              
+          </div>
 
 
-            
-            
-            
-              <a  style="display: flex; flex-direction: column; justify-content: center; position: relative; width: 70%; max-width: 700px; margin-bottom: 40px;background-color: #250d61; height: 100px; padding-bottom: 20px;"  href="https://www.kontobariery.cz/getdoc/091b3e1a-62b6-430b-b1b6-5c597d9bac2e/Elektricky-vozik-pro-Jakuba" target="_blank">
-                
-                <p style="font-size: 20px; color: yellow; text-align: center; margin-bottom: 10px;"></p>
-                <p class="aktualita-top">Elektrický vozík pro  Jakuba</p>
-                <p style="position: absolute; font-size: 20px; right: 20px; bottom: 20px; color: yellow; ">Více zde</p>
-              </a>
-            
+          <!--Dočasná část - sbírka na vozík-->
+          <a  style="display: flex; flex-direction: column; justify-content: center; position: relative; width: 70%; max-width: 700px; margin-bottom: 40px;background-color: #250d61; height: 100px; padding-bottom: 20px;"  href="https://www.kontobariery.cz/getdoc/091b3e1a-62b6-430b-b1b6-5c597d9bac2e/Elektricky-vozik-pro-Jakuba" target="_blank">
+            <p class="aktualita-top">Elektrický vozík pro  Jakuba</p>
+            <p style="position: absolute; font-size: 20px; right: 20px; bottom: 20px; color: yellow; ">Více zde</p>
+          </a>
+          
 
-            <!--grid rozdělující náhledy článků a menu-->
-            <div class="bottom-part-main-grid">
-              <!--náhledy článků-->
-              <div class="articles-bottom-left-grid">
+          <!--grid rozdělující náhledy článků a menu-->
+          <div class="bottom-part-main-grid">
+            <!--náhledy článků-->
+            <div class="articles-bottom-left-grid">
 
-                <!--inspirace - Energie čisté lásky-->
-              <!-- 
-                <div class="article-container">
-                  <a href="../inspirace-all.html">
-                    <div class="category">Inspirace</div>
-                  </a>
-                  <a class="article-overview" href="../inspirace/inspirace-energie-ciste-lasky.html">
-                    <div class="article-overview">
-                      Nic jiného, než energie čisté lásky a radosti nemůže dítěti pomoci v 
-                      překonáni  jeho karmy. 
-                      Naše bezpodmínečná láska mu umožní pocit , že je plnohodnotným člověkem. 
-                    </div>
+
+              <!--článek - Pane bože jenom to ne-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html">
+                    <div class="category">Vzkazy v láhvi</div>
                   </a>
                   <div class="author-and-date-container">
-                    <div class="date-of-article">září 2023</div>
+                    <div class="date-of-article">říjen 2023</div>
                   </div>
                 </div>
-              --> 
+                <img class="overview-picture" src="../pictures/pane-boze-jenom-to-ne/pane-boze-jenom-to-ne.jpg">
 
-               
-
-
-                <!--článek - Pane bože jenom to ne-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html">
-                      <div class="category">Vzkazy v láhvi</div>
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">říjen 2023</div>
-                    </div>
+                <a href="../vzkazy-v-lahvi/pane-boze-jenom-to-ne.html" >
+                  <div class="article-title">Pane Bože jenom to ne</div>
+                </a>
+                
+                <a class="article-overview"  href="../vzkazy-v-lahvi/pane-boze-jenom-to-ne.html" >
+                  <div class="article-overview">
+                    Prosila jsem, když jsem Tebe a Tvého syna viděla poprvé v životě v nemocničním pokoji, kde jsme spolu strávili měsíc, milá moja.
+                    Tvůj chlapeček byl roční a kousek a mému byly jen tři měsíce.
+                    Na tvém malém byly znát všechny ty mozkové operace (dohromady jich prodělal za svůj život osm) a já původním povoláním rehabilitační sestra, poprvé v životě, viděla postižené dítě. 
                   </div>
-                  <img class="pic-test" src="../pictures/pane-boze-jenom-to-ne/pane-boze-jenom-to-ne.jpg">
-
+                </a>
+                
+                <div class="continue-reading-container">
                   <a href="../vzkazy-v-lahvi/pane-boze-jenom-to-ne.html" >
-                    <div class="article-title">Pane Bože jenom to ne</div>
+                    <div class="continue-reading-link">Číst dále</div>
                   </a>
-                  
-                  <a class="article-overview"  href="../vzkazy-v-lahvi/pane-boze-jenom-to-ne.html" >
-                    <div class="article-overview">
-                      Prosila jsem, když jsem Tebe a Tvého syna viděla poprvé v životě v nemocničním pokoji, kde jsme spolu strávili měsíc, milá moja.
-                      Tvůj chlapeček byl roční a kousek a mému byly jen tři měsíce.
-                      Na tvém malém byly znát všechny ty mozkové operace (dohromady jich prodělal za svůj život osm) a já původním povoláním rehabilitační sestra, poprvé v životě, viděla postižené dítě. 
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/pane-boze-jenom-to-ne.html" >
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
 
-                  </div>
-                  
-                  
-                  
                 </div>
                 
+                
+                
+              </div>
+              
 
-                <!--Intermezzo - Vyznání říjen 2023-->
-                <div class="article-container vyznani">
-                  
-                  <img class="pic-test" src=""><!--Doplnit obrázek overview-->
-
-                  
-                    <div style="text-decoration: none;cursor: default;" class="article-title">Vyznání</div><!--NADPIS-->
-                  
-                  
-                    <div style="cursor: default;" class="article-overview"><!--POPIS-->
-                      Poznám ho koutkem oka.<br>
-                      Z dálky deseti metrů.<br>
-                      Poznám ho poslepu,<br>
-                      podle způsobu dechu.<br>
-                      Probudí mě ze spaní, <br>
-                      Vidím ho, když se zahledíš,<br>
-                      bere mi dech..<br>
-                      <br>
-                      Někdy dělám, že ho nevidím.<br>
-                      Kde jsme to skončili?<br>
-                      Zeptám se jen tak mimochodem,<br> když odchází.<br>
-                      Starý známý.<br><br>
-                      Epileptický záchvat….
-                    </div>
-                  
-                  
-                </div>
+              <!--Intermezzo - Vyznání říjen 2023-->
+              <div class="article-container vyznani">
+                
+                <img class="overview-picture" src=""><!--Doplnit obrázek overview-->
 
                 
-
-                <!--článek - Hvar voní-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">leden 2023</div>
-                    </div>
-                  </div>
-                  
-                  <img class="pic-test" src="../pictures/hvar/hvar-overview.jpg">
-                  <a href="../tipy-na-vylety/hvar.html" >
-                    <div class="article-title">Hvar voní</div>
-                  </a>
-                  <a class="article-overview" href="/tipy-na-vylety/hvar.html" >
-                    <div class="article-overview">
-                      Rozmarýnem, levandulí, piniemi, šalvějí a divokým horským tymiánem. 
-                      Ano, zvlášť dobře si to uvědomíte v horách…
-                      na skútříku, po cestě z hlavního města, zadem, po staré
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/hvar.html" >
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div> 
-                </div>
-
-                
-
-                <!--článek - Český Krumlov-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">prosinec 2022</div>
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/krumlov/krumlov-overview.jpg">
-
-                  <a href="../tipy-na-vylety/krumlov.html" >
-                    <div class="article-title">Jak se Kubimu líbilo v Českém Krumlově</div>
-                  </a>
-                  
-                  <a class="article-overview"  href="../tipy-na-vylety/krumlov.html">
-                    <div class="article-overview">
-                      Moc. A pro nás byla jeho radost obrovskou satisfakcí.  
-                      Český Krumlov je prostě nádherný. 
-                      Obzvláště, není-li v něm příliš turistů. A to teď shodou okolností...
-                    </div>
-                  </a>
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/krumlov.html">
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-
-                  </div>
-                  
-                  
-                  
-                </div>
-                
-                <!--Intermezzo - Sebevedomi říjen 2023-->
-                <div class="article-container vyznani small">
-                  
-                  
-
-                  
-                    <div style="text-decoration: none;cursor: default;" class="article-title">Sebevědomí</div><!--NADPIS-->
-                  
-                  
-                    <div style="cursor: default;" class="article-overview"><!--POPIS-->
-                      Nijak nesouvisí s dokonalostí <br>
-                      a dokonalost není zárukou štěstí <br>
-                      A láska bez podmínek souvisí se sebevědomím<br>
-                      A to je štěstí <br>
-                      A pokud Vás nikdo takhle nemiluje, <br>
-                      musíte věřit, že takhle Vás miluje Bůh.<br>
-                      …A jak (se) milujete Vy?<br>
-                    </div>
-                  
-                  
-                </div>
-
-                <!--článek - Bezbariérovým karavanem k moři-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">srpen 2022</div>
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/karavan/karavan-top-overview.jpg">
-                    
-                  
-                  <a href="../tipy-na-vylety/karavan.html" >
-                    <div class="article-title">Bezbariérovým karavanem k moři</div>
-                  </a>
-                  
-                  <a class="article-overview"  href="../tipy-na-vylety/karavan.html">
-                    <div class="article-overview">
-                      Charlie Tramp je miláček.  
-                      Dva roky nové, pořádně veliké fáro, připomínající spíše skříňovou 
-                      Avii než kompaktní dodávku. Ovšem s kompletně bezbariérovou úpravou 
-                      i pro člověka
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/karavan.html">
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-
-                  </div>
-                  
-                  
-                  
-                </div>
-
-                
-
-                <!--článek - člověče, já se nemůžu pohnout-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html">
-                      <div class="category">Vzkazy v láhvi</div>
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">leden 2021</div>
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/covece-nemuzu-se-pohnout/nemuzu-se-pohnout-overview.jpg">
-
-                  <a href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
-                    <div class="article-title">Člověče, já se nemůžu pohnout …</div>
-                  </a>
-                  
-                  <a class="article-overview"  href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
-                    <div class="article-overview">
-                      Ty taky ne viď ? Kuba se na mě výmluvně podívá.
-                  Víš, co by bylo nejlepší ? Kdybych tu já teď zůstala ležet a ty si mohl vstát. 
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-
-                  </div>
-                  
-                  
-                  
-                </div>
-
-                <!--článek - A co teď-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html">
-                      <div class="category">Vzkazy v láhvi</div>
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">červen 2021</div>
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/a-co-ted/a-co-ted-overview.jpg">
-
-                  <a href="../vzkazy-v-lahvi/a-co-ted.html" >
-                    <div class="article-title">A co teď ?</div>
-                  </a>
-                  
-                  <a class="article-overview" href="../vzkazy-v-lahvi/a-co-ted.html" >
-                    <div class="article-overview">
-                      Vždycky se ocitneš tam, kam si došel. K jaké činnosti ses dostal, takovou vykonáváš. 
-                      Ať si myslíš cokoli, myslíš si právě to, co si myslíš. 
-                      Jinými slovy: A co teď ? 
-                    </div>
-                  </a>
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/a-co-ted.html" >
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-
-                  </div>
-                  
-                  
-                  
-                </div>
-
-                
-
-                <!--článek - Rač-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">leden 2021</div><!--vyplnit-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/rac/rac-overview-tall.jpg">
-                  <a href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-title">Rač</div> <!--vyplnit-->
-                  </a>
-              
-                  <a class="article-overview" href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-overview"> 
-                      Pořádný výhled to je  něco,  co se vozíčkáři 
-                      nedostává tak často už proto, 
-                      že výhled rovná se kopec a kopec rovná se 
-                      velké úsilí ho zdolat.<!--vyplnit-->
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-              
-                  
-                </div>
-
-                <!--článek - Babi-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html">
-                      <div class="category">Vzkazy v láhvi</div>
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">listopad 2020</div><!--vyplnit-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/babi/babi-top-overview.JPEG">
-
-                  <a href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-title">Babi</div> <!--vyplnit-->
-                  </a>
-              
-                  <a class="article-overview" href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-overview"> 
-                      A teď tu sedím a na sobě mám babičky krimplenový béžový  šaty s bledě 
-                      modrýma růžema a jsou mi skoro přesně. Ale ty je nebudeš nosit<!--vyplnit-->
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-              
-                  
-                </div>
-
-                <!--Termální lázně Štúrovo-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">září 2020</div><!--vyplnit-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/termalni-lazne-sturovo/sturovo-overview.jpg">
-
-                  <a href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-title">Termální lázně Štúrovo</div> <!--vyplnit-->
-                  </a>
-              
-                  <a class="article-overview" href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-overview"> 
-                      Je po létě.Před týdnem jsme se vrátili z termálních lázní Vadaš – Štúrovo. 
-                      A to je opravdu horký tip,  
-                      jak pro spastika jako je Jakub,<!--vyplnit-->
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-                </div>
-
-                <!--článek - víte, že jste hrdinka?-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html">
-                      <div class="category">Vzkazy v láhvi</div>
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">srpen 2020</div>
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/vite-ze-jste-hrdinka/vite-ze-jste-hrdinka-overview.jpg">
-
-
-                  <a href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html">
-                    <div class="article-title">Víte, že jste hrdinka?</div>
-                  </a>
-                  
-                  <a class="article-overview"  href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html" >
-                    <div class="article-overview">
-                      Zeptal se mě dneska pán ve výtahu na Floře . Zvedám zrak od 
-                      joystiku električáku Jakuba a dělám překvapenou. 
-                      To mě nenapadlo, odpovídám ne příliš
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html" >
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-
-                  </div>
-                  
-                  
-                  
-                </div>
-
-                <!--článek - senftenberger see-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">červenec 2020</div><!--vyplnit-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/senftenberger-see/senftenberger-see-overview.jpg">
-
-                  <a href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-title">Senftenberger See</div> <!--vyplnit-->
-                  </a>
-              
-                  <a class="article-overview" href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-overview"> 
-                      Pustili jsme si soundtrack z filmu Dare to be wild a stočili fáro na sever. 
-                      Z Prahy ta cesta trvá něco málo přes dvě hodiny<!--vyplnit-->
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-              
-                  
-                </div>
-
-                <!--Intermezzo - O Santiago-->
-                <div class="article-container vyznani small">
-                  
-                  
-
-                  
-                  <div style="text-decoration: none;cursor: default;" class="article-title"></div><!--NADPIS-->
+                  <div style="text-decoration: none;cursor: default;" class="article-title">Vyznání</div><!--NADPIS-->
                 
                 
                   <div style="cursor: default;" class="article-overview"><!--POPIS-->
-                    O Santiago<br>
-                    Říkala ta postarší servírka s nádhernejma <br>
-                    nohama a hladila tě po vláskách. <br>
-                    A mě dojímalo, jak je na tebe hodná… <br>
-                    a strašně jsem toužila po takových nohách. <br>
-                    Jestli je to tím, že tak hulí? <br>
+                    Poznám ho koutkem oka.<br>
+                    Z dálky deseti metrů.<br>
+                    Poznám ho poslepu,<br>
+                    podle způsobu dechu.<br>
+                    Probudí mě ze spaní, <br>
+                    Vidím ho, když se zahledíš,<br>
+                    bere mi dech..<br>
+                    <br>
+                    Někdy dělám, že ho nevidím.<br>
+                    Kde jsme to skončili?<br>
+                    Zeptám se jen tak mimochodem,<br> když odchází.<br>
+                    Starý známý.<br><br>
+                    Epileptický záchvat….
                   </div>
                 
                 
               </div>
 
-                <!--článek - klášter Teplá-->
-                <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../tipy-vylety-all.html">
-                      <div class="category">Tipy na výlety</div>
-                    </a> 
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">červenec 2020</div><!--vyplnit-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/klaster tepla/klaster-tepla-top-overview.jpg">
-
-                  <a href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-title">Hotel Klášter Teplá</div> <!--vyplnit-->
-                  </a>
               
-                  <a class="article-overview" href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
-                    <div class="article-overview"> 
-                      Prostor – to je klíčové slovo pro tepelskou pahorkatinu i pro hotel Klášter Teplá. 
-                      Hotel je součástí a jakýmsi čelem v komplexu historických budov 800<!--vyplnit-->
-                    </div>
-                  </a>
-                  
-                  <div class="continue-reading-container">
-                    <a href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-              
-                  
-                </div>
 
-                <!--článek - Někde musí být duha březen 2020-->
-                <div class="article-container tall">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html"><!--Doplnit odkaz na kategorii-->
-                      <div class="category">Vzkazy v láhvi</div><!--Vzkazy v láhvi-->
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">březen 2020</div><!--Doplnit datum-->
-                    </div>
-                  </div>
-                  <img class="pic-test" src="../pictures/nekde-musi-byt-duha/nekde-musi-byt-duha.jpg">
-
-                  <a href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
-                    <div class="article-title">Někde musí být duha</div><!--NADPIS-->
-                  </a>
-                  <a class="article-overview"  href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
-                    <div class="article-overview"><!--POPIS-->
-                      Nevím, kolikrát jsem v noci u Kuby v pokojíčku byla, ale nakonec jsem tam zůstala. Mačkali jsme se tam v jeho modrým autíčku/posteli, co dostal k šestnáctým narozeninám místo řidičáku, než konečně usnul. Kombinace farmakoresistentní epilepsie a spastických bolestivých křečí generuje dost důvodů nespat.
-                      Někdy ho bolí nohy a pomáhá, že si spolu sedneme, tak nějak se opíráme o sebe navzájem, než to trochu přejde.
-                    </div>
-                  </a>
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
+              <!--článek - Hvar voní-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">leden 2023</div>
                   </div>
                 </div>
-
-                 <!--článek - Je to pryč květen 2016-->
-                 <div class="article-container">
-                  <div class="article-container-top">
-                    <a href="../vzkazy-all.html"><!--Doplnit odkaz na kategorii-->
-                      <div class="category">Vzkazy v láhvi</div><!--KATEGORIE-->
-                    </a>
-                    <div class="author-and-date-container">
-                      <div class="date-of-article">květen 2016</div><!--Doplnit datum-->
-                    </div>
+                
+                <img class="overview-picture" src="../pictures/hvar/hvar-overview.jpg">
+                <a href="../tipy-na-vylety/hvar.html" >
+                  <div class="article-title">Hvar voní</div>
+                </a>
+                <a class="article-overview" href="/tipy-na-vylety/hvar.html" >
+                  <div class="article-overview">
+                    Rozmarýnem, levandulí, piniemi, šalvějí a divokým horským tymiánem. 
+                    Ano, zvlášť dobře si to uvědomíte v horách…
+                    na skútříku, po cestě z hlavního města, zadem, po staré
                   </div>
-                  <img class="pic-test" src="../pictures/je-to-pryc/je-to-pryc.JPEG"><!--Doplnit obrázek overview-->
-
-                  <a href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
-                    <div class="article-title">Je to pryč</div><!--NADPIS-->
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/hvar.html" >
+                    <div class="continue-reading-link">Číst dále</div>
                   </a>
-                  <a class="article-overview"  href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
-                    <div class="article-overview"><!--POPIS-->
-                      Je vedro. Dala jsem Kubiho k volantu a že natřu ten stůl, zatímco si bude hrát. V garáži je chladno a to je prima dneska, no ne? Pustila jsem muziku, sedla si na chvilku vedle něj, na místo spolujezdce. Dělávali jsme to takhle a měl to vždycky moc rád. Tak kam jedem Kubi? Kuba za volantem se na mě tázavě podíval.
-                    </div>
-                  </a>
-                  <div class="continue-reading-container">
-                    <a href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
-                      <div class="continue-reading-link">Číst dále</div>
-                    </a>
-                  </div>
-                </div>
-
-                
-                
-                
-
-
-
+                </div> 
               </div>
-              <!--Navigační menu/lišta-->
-              <nav>
-                <script id="replace_with_navbar" src="../nav.js"></script>
-              </nav>
-            </div>
+
+              
+
+              <!--článek - Český Krumlov-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">prosinec 2022</div>
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/krumlov/krumlov-overview.jpg">
+
+                <a href="../tipy-na-vylety/krumlov.html" >
+                  <div class="article-title">Jak se Kubimu líbilo v Českém Krumlově</div>
+                </a>
+                
+                <a class="article-overview"  href="../tipy-na-vylety/krumlov.html">
+                  <div class="article-overview">
+                    Moc. A pro nás byla jeho radost obrovskou satisfakcí.  
+                    Český Krumlov je prostě nádherný. 
+                    Obzvláště, není-li v něm příliš turistů. A to teď shodou okolností...
+                  </div>
+                </a>
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/krumlov.html">
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+
+                </div>
+                
+                
+                
+              </div>
+              
+              <!--Intermezzo - Sebevedomi říjen 2023-->
+              <div class="article-container vyznani small">
+                
+                
+
+                
+                  <div style="text-decoration: none;cursor: default;" class="article-title">Sebevědomí</div><!--NADPIS-->
+                
+                
+                  <div style="cursor: default;" class="article-overview"><!--POPIS-->
+                    Nijak nesouvisí s dokonalostí <br>
+                    a dokonalost není zárukou štěstí <br>
+                    A láska bez podmínek souvisí se sebevědomím<br>
+                    A to je štěstí <br>
+                    A pokud Vás nikdo takhle nemiluje, <br>
+                    musíte věřit, že takhle Vás miluje Bůh.<br>
+                    …A jak (se) milujete Vy?<br>
+                  </div>
+                
+                
+              </div>
+
+              <!--článek - Bezbariérovým karavanem k moři-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">srpen 2022</div>
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/karavan/karavan-top-overview.jpg">
+                  
+                
+                <a href="../tipy-na-vylety/karavan.html" >
+                  <div class="article-title">Bezbariérovým karavanem k moři</div>
+                </a>
+                
+                <a class="article-overview"  href="../tipy-na-vylety/karavan.html">
+                  <div class="article-overview">
+                    Charlie Tramp je miláček.  
+                    Dva roky nové, pořádně veliké fáro, připomínající spíše skříňovou 
+                    Avii než kompaktní dodávku. Ovšem s kompletně bezbariérovou úpravou 
+                    i pro člověka
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/karavan.html">
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+
+                </div>
+                
+                
+                
+              </div>
+
+              
+
+              <!--článek - člověče, já se nemůžu pohnout-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html">
+                    <div class="category">Vzkazy v láhvi</div>
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">leden 2021</div>
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/covece-nemuzu-se-pohnout/nemuzu-se-pohnout-overview.jpg">
+
+                <a href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
+                  <div class="article-title">Člověče, já se nemůžu pohnout …</div>
+                </a>
+                
+                <a class="article-overview"  href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
+                  <div class="article-overview">
+                    Ty taky ne viď ? Kuba se na mě výmluvně podívá.
+                Víš, co by bylo nejlepší ? Kdybych tu já teď zůstala ležet a ty si mohl vstát. 
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/nemuzu-se-pohnout.html" >
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+
+                </div>
+                
+                
+                
+              </div>
+
+              <!--článek - A co teď-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html">
+                    <div class="category">Vzkazy v láhvi</div>
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">červen 2021</div>
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/a-co-ted/a-co-ted-overview.jpg">
+
+                <a href="../vzkazy-v-lahvi/a-co-ted.html" >
+                  <div class="article-title">A co teď ?</div>
+                </a>
+                
+                <a class="article-overview" href="../vzkazy-v-lahvi/a-co-ted.html" >
+                  <div class="article-overview">
+                    Vždycky se ocitneš tam, kam si došel. K jaké činnosti ses dostal, takovou vykonáváš. 
+                    Ať si myslíš cokoli, myslíš si právě to, co si myslíš. 
+                    Jinými slovy: A co teď ? 
+                  </div>
+                </a>
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/a-co-ted.html" >
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+
+                </div>
+                
+                
+                
+              </div>
+
+              
+
+              <!--článek - Rač-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">leden 2021</div><!--vyplnit-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/rac/rac-overview-tall.jpg">
+                <a href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-title">Rač</div> <!--vyplnit-->
+                </a>
             
-            <patka style="width: 100%;">
-              <script id="replace_with_patka" src="../patka.js"></script>
-            </patka>
+                <a class="article-overview" href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-overview"> 
+                    Pořádný výhled to je  něco,  co se vozíčkáři 
+                    nedostává tak často už proto, 
+                    že výhled rovná se kopec a kopec rovná se 
+                    velké úsilí ho zdolat.<!--vyplnit-->
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/rac.html" > <!--vyplnit odkaz na clanek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+            
+                
+              </div>
 
+              <!--článek - Babi-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html">
+                    <div class="category">Vzkazy v láhvi</div>
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">listopad 2020</div><!--vyplnit-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/babi/babi-top-overview.JPEG">
+
+                <a href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-title">Babi</div> <!--vyplnit-->
+                </a>
+            
+                <a class="article-overview" href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-overview"> 
+                    A teď tu sedím a na sobě mám babičky krimplenový béžový  šaty s bledě 
+                    modrýma růžema a jsou mi skoro přesně. Ale ty je nebudeš nosit<!--vyplnit-->
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/babi.html" > <!--vyplnit odkaz na clanek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+            
+                
+              </div>
+
+              <!--Termální lázně Štúrovo-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">září 2020</div><!--vyplnit-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/termalni-lazne-sturovo/sturovo-overview.jpg">
+
+                <a href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-title">Termální lázně Štúrovo</div> <!--vyplnit-->
+                </a>
+            
+                <a class="article-overview" href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-overview"> 
+                    Je po létě.Před týdnem jsme se vrátili z termálních lázní Vadaš – Štúrovo. 
+                    A to je opravdu horký tip,  
+                    jak pro spastika jako je Jakub,<!--vyplnit-->
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="/tipy-na-vylety/termalni-lazne-sturovo.html" > <!--vyplnit odkaz na clanek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+              </div>
+
+              <!--článek - víte, že jste hrdinka?-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html">
+                    <div class="category">Vzkazy v láhvi</div>
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">srpen 2020</div>
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/vite-ze-jste-hrdinka/vite-ze-jste-hrdinka-overview.jpg">
+
+
+                <a href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html">
+                  <div class="article-title">Víte, že jste hrdinka?</div>
+                </a>
+                
+                <a class="article-overview"  href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html" >
+                  <div class="article-overview">
+                    Zeptal se mě dneska pán ve výtahu na Floře . Zvedám zrak od 
+                    joystiku električáku Jakuba a dělám překvapenou. 
+                    To mě nenapadlo, odpovídám ne příliš
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/vite-ze-jste-hrdinka.html" >
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+
+                </div>
+                
+                
+                
+              </div>
+
+              <!--článek - senftenberger see-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">červenec 2020</div><!--vyplnit-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/senftenberger-see/senftenberger-see-overview.jpg">
+
+                <a href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-title">Senftenberger See</div> <!--vyplnit-->
+                </a>
+            
+                <a class="article-overview" href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-overview"> 
+                    Pustili jsme si soundtrack z filmu Dare to be wild a stočili fáro na sever. 
+                    Z Prahy ta cesta trvá něco málo přes dvě hodiny<!--vyplnit-->
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/Senftenberger-See.html" > <!--vyplnit odkaz na clanek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+            
+                
+              </div>
+
+              <!--Intermezzo - O Santiago-->
+              <div class="article-container vyznani small">
+                
+                
+
+                
+                <div style="text-decoration: none;cursor: default;" class="article-title"></div><!--NADPIS-->
+              
+              
+                <div style="cursor: default;" class="article-overview"><!--POPIS-->
+                  O Santiago<br>
+                  Říkala ta postarší servírka s nádhernejma <br>
+                  nohama a hladila tě po vláskách. <br>
+                  A mě dojímalo, jak je na tebe hodná… <br>
+                  a strašně jsem toužila po takových nohách. <br>
+                  Jestli je to tím, že tak hulí? <br>
+                </div>
+              
+              
+            </div>
+
+              <!--článek - klášter Teplá-->
+              <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../tipy-vylety-all.html">
+                    <div class="category">Tipy na výlety</div>
+                  </a> 
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">červenec 2020</div><!--vyplnit-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/klaster tepla/klaster-tepla-top-overview.jpg">
+
+                <a href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-title">Hotel Klášter Teplá</div> <!--vyplnit-->
+                </a>
+            
+                <a class="article-overview" href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
+                  <div class="article-overview"> 
+                    Prostor – to je klíčové slovo pro tepelskou pahorkatinu i pro hotel Klášter Teplá. 
+                    Hotel je součástí a jakýmsi čelem v komplexu historických budov 800<!--vyplnit-->
+                  </div>
+                </a>
+                
+                <div class="continue-reading-container">
+                  <a href="../tipy-na-vylety/klaster-tepla.html" > <!--vyplnit odkaz na clanek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+            
+                
+              </div>
+
+              <!--článek - Někde musí být duha březen 2020-->
+              <div class="article-container tall">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html"><!--Doplnit odkaz na kategorii-->
+                    <div class="category">Vzkazy v láhvi</div><!--Vzkazy v láhvi-->
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">březen 2020</div><!--Doplnit datum-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/nekde-musi-byt-duha/nekde-musi-byt-duha.jpg">
+
+                <a href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
+                  <div class="article-title">Někde musí být duha</div><!--NADPIS-->
+                </a>
+                <a class="article-overview"  href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
+                  <div class="article-overview"><!--POPIS-->
+                    Nevím, kolikrát jsem v noci u Kuby v pokojíčku byla, ale nakonec jsem tam zůstala. Mačkali jsme se tam v jeho modrým autíčku/posteli, co dostal k šestnáctým narozeninám místo řidičáku, než konečně usnul. Kombinace farmakoresistentní epilepsie a spastických bolestivých křečí generuje dost důvodů nespat.
+                    Někdy ho bolí nohy a pomáhá, že si spolu sedneme, tak nějak se opíráme o sebe navzájem, než to trochu přejde.
+                  </div>
+                </a>
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/nekde-musi-byt-duha.html" ><!--Doplnit odkaz na článek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+              </div>
+
+                <!--článek - Je to pryč květen 2016-->
+                <div class="article-container">
+                <div class="article-container-top">
+                  <a href="../vzkazy-all.html"><!--Doplnit odkaz na kategorii-->
+                    <div class="category">Vzkazy v láhvi</div><!--KATEGORIE-->
+                  </a>
+                  <div class="author-and-date-container">
+                    <div class="date-of-article">květen 2016</div><!--Doplnit datum-->
+                  </div>
+                </div>
+                <img class="overview-picture" src="../pictures/je-to-pryc/je-to-pryc.JPEG"><!--Doplnit obrázek overview-->
+
+                <a href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
+                  <div class="article-title">Je to pryč</div><!--NADPIS-->
+                </a>
+                <a class="article-overview"  href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
+                  <div class="article-overview"><!--POPIS-->
+                    Je vedro. Dala jsem Kubiho k volantu a že natřu ten stůl, zatímco si bude hrát. V garáži je chladno a to je prima dneska, no ne? Pustila jsem muziku, sedla si na chvilku vedle něj, na místo spolujezdce. Dělávali jsme to takhle a měl to vždycky moc rád. Tak kam jedem Kubi? Kuba za volantem se na mě tázavě podíval.
+                  </div>
+                </a>
+                <div class="continue-reading-container">
+                  <a href="../vzkazy-v-lahvi/je-to-pryc.html" ><!--Doplnit odkaz na článek-->
+                    <div class="continue-reading-link">Číst dále</div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <!--Navigační menu/lišta-->
+            <nav>
+              <script id="replace_with_navbar" src="../nav.js"></script>
+            </nav>
           </div>
-        </div>
-      </main> 
+          
+          <!--patka stránky-->
+          <footer style="width: 100%;">
+            <script id="replace_with_patka" src="../patka.js"></script>
+          </footer>
+
+       
+      </div>
+       
     </body>
   </html>
