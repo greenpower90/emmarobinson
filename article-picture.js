@@ -30,6 +30,7 @@ const allPictures = document.querySelectorAll('.js-picture');
           index = 0;
           console.log(index);
           showPictureElement.src = allPictures[index].src;
+          showPictureElement.addEventListener('animationend', onAnimationEnd);
         }
         else{
         console.log(index);
@@ -47,6 +48,8 @@ const allPictures = document.querySelectorAll('.js-picture');
           index = allPictures.length -1;
           console.log(index);
           showPictureElement.src = allPictures[index].src;
+          
+
         }
         else{
         console.log(index);
