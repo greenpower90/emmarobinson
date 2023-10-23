@@ -11,7 +11,8 @@
       <meta property="og:image:width" content="200">
       
       <!--STYLY-->
-      <link rel="stylesheet" href="../styles/general.css">
+      <link rel="stylesheet" href="../../styles/general.css">
+      <link rel="stylesheet" href="../styles/article.css">
       <link rel="stylesheet" href="../styles/header.css">
       <link rel="stylesheet" href="../styles/image.css">
 
@@ -69,27 +70,38 @@
                 <img class="article-top-picture" src="../pictures/Untitled.png">
 
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
-                                    Text Text Text Text Text Text Text Text </p>
-                <p class="odstavec">Text Text Text Text Text Text Text Text 
-                                    Text Text Text Text Text Text Text Text </p>
-                <p class="odstavec">Text </p>
+                                    Text Text Text Text Text Text Text Text 
+                </p>
+
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
                                     Text Text Text Text Text Text Text Text 
                 </p>
+
+                <p class="odstavec">Text </p>
+
+                <p class="odstavec">Text Text Text Text Text Text Text Text 
+                                    Text Text Text Text Text Text Text Text 
+                </p>
+
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
                   Text Text Text Text Text Text Text Text 
                 </p>
+
                 <p class="odstavec">Text Text Text  
                   <span  ><a class="text-underline" style="color:blue" href="https://www.seznam.cz" target="_blank">Text jako odkaz</a></span> 
                   Text Text Text Text 
                 </p>
+
                 <p class="odstavec">Text </p>
+                
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
                                     Text Text Text Text Text Text Text Text 
                 </p>
+
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
                   Text Text Text Text Text Text Text Text 
                 </p>
+
                 <p class="odstavec">Text Text Text Text Text Text Text Text 
                   Text Text Text Text Text Text Text Text 
                 </p>
@@ -98,25 +110,35 @@
                 <div class="author-and-date-container">
                   <div class="date-of-article">Srpen 2020</div><!--vyplnit-->
                 </div>
+
                 <iframe class="video" width="400" height="215"
                  src=" https://www.youtube.com/embed/6XDGWLUWeeE" allowfullscreen>
                 </iframe>
 
+
                 <div class="picture-grid-typ-two">
-                  <img style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/babi/babi-1.jpg">
-                  <img style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/babi/babi-2.jpeg">
+                  <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/babi/babi-1.jpg">
+                  <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/babi/babi-2.jpeg">
                 </div>
 
                 <div class="picture-grid-typ-three">
-                  <img style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-1.jpeg">
-                  <img style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-2.jpeg">
-                  <img style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-3.jpeg">
+                  <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-1.jpeg">
+                  <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-2.jpeg">
+                  <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/rac/rac-3.jpeg">
                 </div>
 
                 
               
-                <img style="width: 100%; object-fit: cover;" src="../pictures/karavan/karavan-5.jpeg">
+                <img class="gallery-img js-picture" style="width: 100%; object-fit: cover;" src="../pictures/karavan/karavan-5.jpeg">
+
+                
+                <div class="image-popup-container" id="js-background-div"> 
+                <!-- Image containter where image will show in big size -->
+                </div>
+                <script src="../article-picture.js"></script>
+
               </div>
+
               <!--začátek kódu pro MENU - Menu se nahrává přes JavaScript-->
               <nav class="nav-article">
                 <script id="replace_with_navbar" src="../nav.js"></script>

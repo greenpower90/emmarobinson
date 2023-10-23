@@ -49,6 +49,25 @@
 	color: red;
 }
 
+.picture-next-button{
+  position: absolute;
+	top: 50%;
+	right: 50px;
+	font-size:30px;
+	color: #fff;
+	cursor: pointer;
+  z-index: 100;
+}
+.picture-previous-button{
+  position: absolute;
+	top: 50%;
+	left: 50px;
+	font-size:30px;
+	color: #fff;
+	cursor: pointer;
+  z-index: 100;
+}
+
 /* when we click on the image it will expand in bigger size and will displayed
 at middle of screen */
 #popupImage {
@@ -77,3 +96,4 @@ at middle of screen */
 		font-size: 20px;
 	}
 }
+

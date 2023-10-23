@@ -144,25 +144,30 @@
 
             <!--Grid níže dělá tři fotky níže vedle sebe, @media nastaveno na skládání fotek pod sebou při zmenšení obrazovky-->
             
-            <img class="gallery-img" style="width: 100%; object-fit: cover; margin-top: 30px; margin-bottom: 8px;" src="../pictures/karavan/karavan-1.jpeg" onclick="showImage(src)"> 
+            <img class="gallery-img js-picture" style="width: 100%; object-fit: cover; margin-top: 30px; margin-bottom: 8px;" src="../pictures/karavan/karavan-1.jpeg"> 
             
             
             <div class="picture-grid-typ-three">
-              <img class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-2.jpeg" onclick="showImage(src)">
-              <img class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-3.jpeg" onclick="showImage(src)">
-              <img class="gallery-img" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-4.jpeg" onclick="showImage(src)">
+              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-2.jpeg">
+              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-3.jpeg">
+              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-4.jpeg">
             </div>
 
             
 
             
 
-              <img class="gallery-img" style="width: 100%; object-fit: cover; margin-top: 5px; margin-bottom: 8px;" src="../pictures/karavan/karavan-5.jpeg" onclick="showImage(src)">
+              <img class="gallery-img js-picture" style="width: 100%; object-fit: cover; margin-top: 5px; margin-bottom: 8px;" src="../pictures/karavan/karavan-5.jpeg">
 
               <!-- Image containter where image will show in big size -->
-              <div class="image-popup-container" id="imagePopup">
-                <span class="close-button" onclick="closeImage()">×</span>
+              <div class="image-popup-container" id="js-background-div">
+                <!--
+                <span class="close-button" onclick="closeImageButton()">×</span>
+                <span class="picture-next-button js-next-button"><img style="width: 40px" src="../icons/next.ico"></span>
+                <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
+                
                 <img src="" alt="Popup Image" id="popupImage">
+-->
               </div>
 
               <script src="../article-picture.js"></script>
