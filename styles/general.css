@@ -324,9 +324,6 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 
-.article-title:hover{
-  text-decoration: underline;
-}
 
 .content-article{
   display: flex;
