@@ -428,12 +428,7 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration: underline;
   }
 
-  @media (max-width:700px){
-    .article-grid{
-      grid-template-columns: 1fr;
-      row-gap: 30px;
-    }
-  }
+  
 
   .cathegory-all-articles-grid{
     display: grid;
