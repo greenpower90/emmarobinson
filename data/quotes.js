@@ -1,4 +1,4 @@
-const quotes = 
+export const quotes = 
 [{
   quote: `"Nic jiného, než energie čisté lásky a radosti nemůže dítěti pomoci v překonáni jeho karmy. Naše bezpodmínečná láska mu umožní pocit , že je plnohodnotným člověkem.."`,
   writer: ``
@@ -72,3 +72,4 @@ const quotes =
     writer: `Kuba z Duba`
     },
 ]
+

@@ -26,65 +26,52 @@
     </head>
     <body>   
       <div class="page">
-          <div class="top-container"><!--top container obsahuje hlavní fotku, popisek a citát-->
-            
-            <mainpicture class="main-picture">
-              <!--Here will be displayed random main picture based on the javascript-->  
-            </mainpicture>
+        <div class="top-container"><!--top container obsahuje hlavní fotku, popisek a citát-->
+          
+          <mainpicture class="main-picture">
+            <!--Here will be displayed random main picture based on the javascript-->  
+          </mainpicture>
 
-            <p class="web-title">Emma Robinson & Kuba z Duba</p>
-            <p class="undertitle">Neuvěřitelná dobrodružství od plotny</p>
-            
-            <!--div-quote - náhodný citát + tlačítka na posuv citátů-->
-            <div class="div-quote">
-              <div class="quote"><!--Here will be displayed random quote based on the javascript-->
-              </div>
-              <div class="writer"><!--Here will be displayed author of random quote based on the javascript--> 
-              </div>
-
-              <img src="../icons/arrow_next_right_icon.png" class="button-citat-right" id="Nbtn" onclick="nextQuote()">
-              <img src="../icons/arrow_next_left_icon.png" class="button-citat-left" id="Pbtn" onclick="previousQuote()">
+          <p class="web-title">Emma Robinson & Kuba z Duba</p>
+          <p class="undertitle">Neuvěřitelná dobrodružství od plotny</p>
+          
+          <!--div-quote - náhodný citát + tlačítka na posuv citátů-->
+          <div class="div-quote">
+            <div class="quote"><!--Here will be displayed random quote based on the javascript-->
             </div>
+            <div class="writer"><!--Here will be displayed author of random quote based on the javascript--> 
+            </div>
+            <img src="../icons/arrow_next_right_icon.png" class="button-citat-right js-button-citat-right" id="Nbtn">
+            <img src="../icons/arrow_next_left_icon.png" class="button-citat-left js-button-citat-left" id="Pbtn">
+          </div> 
+          
+        </div>
 
-            <!--javascript pro generování hlavní fotky a citátů-->
-            <script src="/data/quotes.js"></script>
-            <script src="../main-picture-quotes-generator.js"></script>
+        <!--Dočasná část - sbírka na vozík-->
+        <a  style="display: flex; flex-direction: column; justify-content: center; position: relative; width: 70%; max-width: 700px; margin-bottom: 40px;background-color: #250d61; height: 100px; padding-bottom: 20px;"  href="https://www.kontobariery.cz/getdoc/091b3e1a-62b6-430b-b1b6-5c597d9bac2e/Elektricky-vozik-pro-Jakuba" target="_blank">
+          <p class="aktualita-top">Elektrický vozík pro  Jakuba</p>
+          <p style="position: absolute; font-size: 20px; right: 20px; bottom: 20px; color: yellow; ">Více zde</p>
+        </a>
+          
+        <!--grid rozdělující náhledy článků a menu-->
+        <div class="bottom-part-main-grid">
+          
+          <!--náhledy článků-->
+          <div class="articles-bottom-left-grid js-articles-bottom-left-grid">
+            <!--here will be displayed all articles overview-->
           </div>
 
+          <nav>
+            <script id="replace_with_navbar" src="../nav.js"></script>
+          </nav>
 
-          <!--Dočasná část - sbírka na vozík-->
-          <a  style="display: flex; flex-direction: column; justify-content: center; position: relative; width: 70%; max-width: 700px; margin-bottom: 40px;background-color: #250d61; height: 100px; padding-bottom: 20px;"  href="https://www.kontobariery.cz/getdoc/091b3e1a-62b6-430b-b1b6-5c597d9bac2e/Elektricky-vozik-pro-Jakuba" target="_blank">
-            <p class="aktualita-top">Elektrický vozík pro  Jakuba</p>
-            <p style="position: absolute; font-size: 20px; right: 20px; bottom: 20px; color: yellow; ">Více zde</p>
-          </a>
+        </div>
+        <footer style="width: 100%;">
+          <script id="replace_with_patka" src="../patka.js"></script>
           
-
-          <!--grid rozdělující náhledy článků a menu-->
-          <div class="bottom-part-main-grid">
-            
-            <!--náhledy článků-->
-            <div class="articles-bottom-left-grid js-articles-bottom-left-grid">
-              <!--here will be displayed all articles overview-->
-            </div>
-            
-
-            <!--Navigační menu/lišta-->
-            <nav>
-              <script id="replace_with_navbar" src="../nav.js"></script>
-            </nav>
-          </div>
-          
-          <script src="data/overviews-data.js"></script>
-          
-          <script src="scripts/articles-overview.js"></script>
-          
-          <!--patka stránky-->
-          <footer style="width: 100%;">
-            <script id="replace_with_patka" src="../patka.js"></script>
-          </footer>
-
-       
-      </div>
-       
+        </footer>
+      </div> 
+      <script type="module" src="../main-picture-quotes-generator.js"></script>
+      <script type="module" src="scripts/articles-overview.js"></script>
     </body>
   </html>

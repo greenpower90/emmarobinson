@@ -1,5 +1,7 @@
+import { overviews } from '../data/overviews-data.js';
+
 let HTMLelement = '';
-let showMoreElement = 1;
+//let showMoreElement = 1;
 overviews.forEach((articleOverview) => {
   HTMLelement += `
   <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
@@ -36,7 +38,7 @@ overviews.forEach((articleOverview) => {
   ` 
 })
 
-console.log(HTMLelement);
+//console.log(HTMLelement);
 
 document.querySelector('.js-articles-bottom-left-grid')
   .innerHTML = HTMLelement;

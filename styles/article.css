@@ -61,6 +61,30 @@
   justify-content: space-between;
 }
 
+.next-article-div{
+  text-align: left;
+}
+
+.next-previous-article-text{
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.previous-article-div{
+  text-align: right;
+}
+
+.next-article, .previous-article{
+  color: darkred;
+  font-size: 16px;
+}
+
+.next-article:hover, .previous-article:hover{
+  text-decoration: underline;
+}
+
+
 @media (max-width:700px){
   .article-grid{
     grid-template-columns: 1fr;

@@ -10,7 +10,7 @@
       <meta property="og:image:width" content="200">
 
       
-      <link rel="stylesheet" href="../../styles/general.css">
+      <link rel="stylesheet" href="../styles/general.css">
       <link rel="stylesheet" href="../styles/article.css">
       <link rel="stylesheet" href="../styles/header.css">
       <link rel="stylesheet" href="../styles/image.css">
@@ -40,6 +40,7 @@
             </div>
             <div class="article-grid">
               <div class="article-part">
+                <div class="js-article-id" data-article-id="tnv-hvar"></div>
                 
                 <h1 class="js-title inside-article-title">Hvar voní</h1>
                 <img class="article-top-picture" src="../pictures/hvar/hvar.jpg">
@@ -125,7 +126,11 @@
                   src="https://www.youtube.com/embed/6XDGWLUWeeE" allowfullscreen>
                   
                 </iframe>
-                  
+                
+                <div class="next-previous-article-div">
+                  <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
+                  <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
+                </div>
                 
               
               
@@ -133,6 +138,7 @@
               </div>
               <nav class="nav-article">
                 <script id="replace_with_navbar" src="../nav.js"></script>
+                
               </nav>
             </div>
           </div>
@@ -141,8 +147,9 @@
       <patka style="width: 100%;">
         <script id="replace_with_patka" src="../patka.js"></script>
       </patka>
-      <script src="../data/overviews-data.js"></script>
-      <script src="../scripts/header.js"></script>
-      <script src="../scripts/next-previous-articles.js"></script>
+      <script type="module" src="../scripts/next-previous-articles.js"></script>
+      <script type="module" src="../scripts/header.js"></script>    
+      
+      
     </body>
   </html>

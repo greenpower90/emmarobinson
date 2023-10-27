@@ -55,7 +55,7 @@
             <!--grid na rozdělení článku a MENU-->
             <div class="article-grid">
               <div class="article-part">
-                 
+                <div class="js-article-id" data-article-id="tnv-krumlov"></div> 
                 <h1 class="inside-article-title js-title">Jak se Kubimu líbilo v Českém Krumlově?</h1><!--vyplnit-->
 
                 <img class="article-top-picture" src="../pictures/krumlov/krumlov-1.jpg">
@@ -140,6 +140,11 @@
                 <iframe style="padding-top: 0; margin-top: 15px;" class="video" width="100%" height="300"
                   src="https://www.youtube.com/embed/Y26oOOogFJg" allowfullscreen>
                 </iframe>
+
+                <div class="next-previous-article-div">
+                  <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
+                  <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
+                </div>
               
               </div>
               <!--začátek kódu pro MENU-->
@@ -149,10 +154,13 @@
             </div>
           </div>
           <script src="../data/overviews-data.js"></script>
-          <script src="../scripts/header.js"></script>
+        
+          
         </main>
         <patka style="width: 100%;">
           <script id="replace_with_patka" src="../patka.js"></script>
         </patka>
+        <script type="module" src="../scripts/next-previous-articles.js"></script>
+        <script type="module" src="../scripts/header.js"></script>
     </body>
   </html>

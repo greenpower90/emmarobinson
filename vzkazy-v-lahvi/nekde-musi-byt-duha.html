@@ -10,7 +10,7 @@
       <meta property="og:image:type" content="image/jpg">
       <meta property="og:image:width" content="200">
 
-      <link rel="stylesheet" href="../../styles/general.css">
+      <link rel="stylesheet" href="../styles/general.css">
       <link rel="stylesheet" href="../styles/article.css">
       <link rel="stylesheet" href="../styles/header.css">
       <link rel="stylesheet" href="../styles/image.css">
@@ -62,7 +62,7 @@
             <!--grid na rozdělení článku a MENU-->
             <div class="article-grid">
               <div class="article-part">
-                                      <!--vyplnit kategorii a odkaz-->
+                <div class="js-article-id" data-article-id="vvl-nekdemusibytduha"></div>
                
                 <h1 class="inside-article-title js-title">Někde musí být duha</h1><!--vyplnit-->
                 
@@ -135,7 +135,10 @@
                 </div>
                 
 
-                
+                <div class="next-previous-article-div">
+                  <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
+                  <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
+                </div>
 
                 
 
@@ -155,7 +158,7 @@
         <patka style="width: 100%;">
           <script id="replace_with_patka" src="../patka.js"></script>
         </patka>
-        <script src="../data/overviews-data.js"></script>
-        <script src="../scripts/header.js"></script>
+        <script type="module" src="../scripts/next-previous-articles.js"></script>
+        <script type="module" src="../scripts/header.js"></script>
     </body>
   </html>

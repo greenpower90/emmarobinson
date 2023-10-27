@@ -62,7 +62,7 @@
             <!--grid na rozdělení článku a MENU-->
             <div class="article-grid">
               <div class="article-part">
-                
+                <div class="js-article-id" data-article-id="tnv-rac"></div>
                 <h1 class="inside-article-title js-title">Rač</h1><!--vyplnit-->
                 
                 <img class="article-top-picture" src="../pictures/rac/rac-top.jpg">
@@ -133,7 +133,12 @@
                 
 
                 
-                </p>
+                
+
+                <div class="next-previous-article-div">
+                  <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
+                  <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
+                </div>
               </div>
 
 
@@ -150,7 +155,7 @@
         <patka style="width: 100%;">
           <script id="replace_with_patka" src="../patka.js"></script>
         </patka>
-        <script src="../data/overviews-data.js"></script>
-        <script src="../scripts/header.js"></script>
+        <script type="module" src="../scripts/next-previous-articles.js"></script>
+        <script type="module" src="../scripts/header.js"></script>
     </body>
   </html>

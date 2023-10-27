@@ -12,13 +12,11 @@
 
       <!--Meta viewport nastaven pro upravení stránek pro mobilní zařízení-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../../styles/general.css">
+
+      <link rel="stylesheet" href="../styles/general.css">
       <link rel="stylesheet" href="../styles/article.css">
       <link rel="stylesheet" href="../styles/header.css">
       <link rel="stylesheet" href="../styles/image.css">
-
-
-      
       
       <!--Fonty-->
       <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
@@ -26,7 +24,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </head>
     <body>
-      
+
       <header class="header">
         <div class="header-container" >
           <div class="header-part">
@@ -58,24 +56,19 @@
 
       <div class="page">
         <div class="content-article">
-          
-
           <div class="article-grid">
             <div class="article-part">
-              
+              <div class="js-article-id" data-article-id="tnv-bezbarierovymkaravanem"></div>
               <h1 class="inside-article-title js-title">Bezbariérovým karavanem k moři</h1>
               <img class="article-top-picture" src="../pictures/karavan/karavan-top.jpg"> 
 
-              
-            
               <p class="odstavec">Charlie Tramp je miláček.</p>
               <p class="odstavec">Dva roky nové, pořádně veliké fáro,  připomínající spíše skříňovou Avii než kompaktní dodávku. Ovšem s kompletně bezbariérovou úpravou i pro člověka s  těžkým externím elektrickým vozíkem. A to je fér.
-          <!--link na původního majitele--> 
-         <!--     <p class="odstavec">O celém projektu si můžete přečíst tady:  <a target="_blank" href="https://www.opus-lacrimosa.cz/cz/projekty/camper-charley-tramp">Projekt Camper Charley Tramp.
-                </a>
-              </p>
-          -->  
-
+              <!--link na původního majitele--> 
+              <!--     <p class="odstavec">O celém projektu si můžete přečíst tady:  <a target="_blank" href="https://www.opus-lacrimosa.cz/cz/projekty/camper-charley-tramp">Projekt Camper Charley Tramp.
+                    </a>
+                  </p>
+              -->  
               <p class="odstavec">Mile mě překvapilo, že auto není tak náchylné na boční vítr, jak jsme předpokládali. Je těžké. Přesto, naše průměrná spotřeba na 1200 km nepřesáhla 12 litrů. Automat, který jsem mimochodem řídila  poprvé, je vysoce návykový a opravdu pohodlný.  Levou nohu si  můžete dát při řízení třeba za krk a to jogín ocení. Jogín taky ví, že cesta je cíl a nepotřebuje se řítit víc než 130 km/hod. Což je zde nejvyšší doporučená  rychlost.  Auto je také vybavené  ručním řízením ovládajícím brzdu i plyn, nicméně běžnému řidiči nepřekáží a nemusíte si ho vůbec všímat.
                 Asi největší vítr má člověk  z couvání. Couvací kamera se automaticky aktivuje a na displeji vidíte díky bohu svůj zadek, ale bacha, jako každý zrcadlo trochu zkresluje! 
                 Druhým strašákem je jízda v úzkých uličkách a zúženích. Říkám si vždycky – vejde se sem tirák, vejdu se sem i já. Ale samozřejmě trochu 
@@ -142,20 +135,16 @@
                 <div class="date-of-article">srpen 2020</div>
               </div> 
 
-            <!--Grid níže dělá tři fotky níže vedle sebe, @media nastaveno na skládání fotek pod sebou při zmenšení obrazovky-->
-            
-            <img class="gallery-img js-picture" style="width: 100%; object-fit: cover; margin-top: 30px; margin-bottom: 8px;" src="../pictures/karavan/karavan-1.jpeg"> 
-            
-            
-            <div class="picture-grid-typ-three">
-              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-2.jpeg">
-              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-3.jpeg">
-              <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-4.jpeg">
-            </div>
-
-            
-
-            
+              <!--Grid níže dělá tři fotky níže vedle sebe, @media nastaveno na skládání fotek pod sebou při zmenšení obrazovky-->
+              
+              <img class="gallery-img js-picture" style="width: 100%; object-fit: cover; margin-top: 30px; margin-bottom: 8px;" src="../pictures/karavan/karavan-1.jpeg"> 
+              
+              
+              <div class="picture-grid-typ-three">
+                <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-2.jpeg">
+                <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-3.jpeg">
+                <img class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;" src="../pictures/karavan/karavan-4.jpeg">
+              </div>
 
               <img class="gallery-img js-picture" style="width: 100%; object-fit: cover; margin-top: 5px; margin-bottom: 8px;" src="../pictures/karavan/karavan-5.jpeg">
 
@@ -167,7 +156,12 @@
                 <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
                 
                 <img src="" alt="Popup Image" id="popupImage">
--->
+  -->
+              </div>
+
+              <div class="next-previous-article-div">
+                <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
+                <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
               </div>
 
               <script src="../article-picture.js"></script>
@@ -179,10 +173,14 @@
           </div>  
         </div>
       </div>
-      <script src="../data/overviews-data.js"></script>
-      <script src="../scripts/header.js"></script>
+
+      
+      
+        
       <patka style="width: 100%;">
         <script id="replace_with_patka" src="../patka.js"></script>
       </patka>
+      <script type="module" src="../scripts/next-previous-articles.js"></script>
+      <script type="module" src="../scripts/header.js"></script>
     </body>
   </html>

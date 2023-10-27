@@ -1,5 +1,6 @@
-const overviews = [
+export const overviews = [
 {//článek - Pane Bože jenom to ne - říjen 2023
+  articleId: 'vvl-paneboze',
   dimension: ' tall ',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -14,6 +15,7 @@ const overviews = [
   readMore: 'Číst dále',
 },{//Intermezzo - vyznání - říjen 2023
   class:' vyznani ',
+  type: 'intermezzo',
   dimension: '  ',
   cathegory: {
     name: '',
@@ -40,7 +42,7 @@ const overviews = [
                     Epileptický záchvat….`,
   readMore: '',
 },{//článek - Hvar voní - srpen 2022
-  ObjectId: 'hvar',
+  articleId: 'tnv-hvar',
   dimension: '',
   cathegory: {
     name: 'Tipy na výlety',
@@ -54,6 +56,7 @@ const overviews = [
   text: 'Rozmarýnem, levandulí, piniemi, šalvějí a divokým horským tymiánem. Ano, zvlášť dobře si to uvědomíte v horách… na skútříku, po cestě z hlavního města, zadem, po staré úzké silnici...',
   readMore: 'Číst dále',
 },{//článek - Český Krumlov
+  articleId: 'tnv-krumlov',
   dimension: ' tall ',
   cathegory: {
     name: 'Tipy na výlety',
@@ -70,6 +73,7 @@ const overviews = [
   readMore: 'Číst dále',
 },{//Intermezzo - Sebevedomi říjen 2023
   class:' vyznani ',
+  type: 'intermezzo',
   dimension: ' small ',
   cathegory: {
     name: '',
@@ -88,6 +92,7 @@ const overviews = [
   …A jak (se) milujete Vy?<br>`,
   readMore: '',
 },{//článek - Bezbariérovým karavanem k moři srpen 2022
+  articleId: 'tnv-bezbarierovymkaravanem',
   dimension: '',
   cathegory: {
     name: 'Tipy na výlety',
@@ -103,6 +108,7 @@ const overviews = [
   Avii než kompaktní dodávku. Ovšem s kompletně bezbariérovou úpravou `,
   readMore: 'Číst dále',
 },{//článek - člověče, já se nemůžu pohnout leden 2021
+  articleId: 'vvl-nemuzusepohnout',
   dimension: '',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -117,6 +123,7 @@ const overviews = [
   Víš, co by bylo nejlepší ? Kdybych tu já teď zůstala ležet a ty si mohl vstát.`,
   readMore: 'Číst dále',
 },{//článek - A co teď
+  articleId: 'vvl-acoted',
   dimension: ' tall ',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -132,6 +139,7 @@ const overviews = [
   Jinými slovy: A co teď ?`,
   readMore: 'Číst dále',
 },{//článek - Rač
+  articleId: 'tnv-rac',
   dimension: ' tall ',
   cathegory: {
     name: 'Tipy na výlety',
@@ -148,6 +156,7 @@ const overviews = [
   velké úsilí ho zdolat.`,
   readMore: 'Číst dále',
 },{//článek - Babi
+  articleId: 'vvl-babi',
   dimension: '',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -161,7 +170,8 @@ const overviews = [
   text: `A teď tu sedím a na sobě mám babičky krimplenový béžový  šaty s bledě 
   modrýma růžema a jsou mi skoro přesně. Ale ty je nebudeš nosit`,
   readMore: 'Číst dále',
-},{//Termální lázně Štúrovo
+},{//článek - Termální lázně Štúrovo
+  articleId: 'tnv-laznesturovo',
   dimension: '',
   cathegory: {
     name: 'Tipy na výlety',
@@ -177,6 +187,7 @@ const overviews = [
   jak pro spastika jako je Jakub`,
   readMore: 'Číst dále',
 },{//článek - víte, že jste hrdinka?
+  articleId: 'vvl-vitezejstehrdinka',
   dimension: ' tall ',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -192,6 +203,7 @@ const overviews = [
   To mě nenapadlo, odpovídám ne příliš přesvědčivě...`,
   readMore: 'Číst dále',
 },{//článek - senftenberger see
+  articleId: 'tnv-senftenbergersee',
   dimension: '',
   cathegory: {
     name: 'Tipy na výlety',
@@ -207,6 +219,7 @@ const overviews = [
   readMore: 'Číst dále',
 },{//Intermezzo - O Santiago
   class:' vyznani ',
+  type: 'intermezzo',
   dimension: ' small ',
   cathegory: {
     name: '',
@@ -224,6 +237,7 @@ const overviews = [
   Jestli je to tím, že tak hulí? <br>`,
   readMore: '',
 },{//článek - klášter Teplá
+  articleId: 'tnv-klastertepla',
   dimension: '',
   cathegory: {
     name: 'Tipy na výlety',
@@ -238,6 +252,7 @@ const overviews = [
   Hotel je součástí a jakýmsi čelem v komplexu historických budov 800`,
   readMore: 'Číst dále',
 },{//článek - Někde musí být duha březen 2020
+  articleId: 'vvl-nekdemusibytduha',
   dimension: ' tall ',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -252,6 +267,7 @@ const overviews = [
   Někdy ho bolí nohy a pomáhá, že si spolu sedneme, tak nějak se opíráme o sebe navzájem, než to trochu přejde.`,
   readMore: 'Číst dále',
 },{//článek - Je to pryč květen 2016
+  articleId: 'vvl-jetopryc',
   dimension: '',
   cathegory: {
     name: 'Vzkazy v láhvi',
@@ -278,3 +294,4 @@ const overviews = [
   readMore: '',
 }*/
 ];
+
