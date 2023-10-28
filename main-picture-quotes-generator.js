@@ -1,4 +1,5 @@
 import {quotes} from './data/quotes.js';
+import { mainPicture } from './data/main-picture.js';
 
 let random = 0;
 let quote = document.querySelector(".quote");
@@ -8,18 +9,17 @@ window.onload = loadPictureAndQuote();
 
 function loadPictureAndQuote(){
 
-  let images = [1,2,3,4,5,6,7,8,9,10,11,12,13,]
+  //let images = [1,2,3,4,5,6,7,8,9,10,11,12,13,]
+  let images = mainPicture;
+  console.log(mainPicture);
 
-  let image = Math.floor(Math.random() * images.length)
+  let randomImageIndex = Math.floor(Math.random() * images.length)
   console.log(`celkem fotek ${images.length}`);
-  console.log(`náhodné číslo na výběr fotky ${image}`);
-  //if zamezuje načtení fotky s označením 0, taková ve složce není.
-  if (image === 0) { 
-    image = 1;
-  console.log(image);
-  }
+  console.log(`náhodné číslo na výběr fotky ${randomImageIndex}`);
+  console.log(`zdroj fotky na náhodném indexu: ${images[randomImageIndex].src}`)
+  
 
-  document.getElementsByTagName('mainpicture')[0].style.backgroundImage = "url('Images/" + image + ".jpg')";
+  document.getElementsByTagName('mainpicture')[0].style.backgroundImage = `url(${images[randomImageIndex].src})`;
   document.getElementsByTagName('mainpicture')[0].style.backgroundRepeat = "no-repeat";
   document.getElementsByTagName('mainpicture')[0].style.backgroundSize = "100%";
 
