@@ -140,6 +140,10 @@ a, a:hover, a:active, a:visited, a:focus {
   grid-row: span 2;
 }
 
+.wide{
+  grid-column: span 2;
+}
+
 .category{
   color: rgb(160, 1, 1);
   margin-bottom: 8px;
