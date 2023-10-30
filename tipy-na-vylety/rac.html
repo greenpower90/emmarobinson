@@ -27,38 +27,12 @@
     <body>
       <!--horní lišta - vyplnit kategorii, článek a odkazy-->
       <header class="header">
-        <div class="header-container" >
-          <div class="header-part">
-            <a href="../index.html">
-              <div class="header-home-container"> 
-                <img class="home-icon" src="../icons/home.png"> 
-                <p>Home</p>
-              </div>
-            </a>
-            <div style="padding-left: 5px ;"> &#62;&#62;</div>
-          </div>
-          <div class="header-part">
-            <a href="../tipy-vylety-all.html"><!--vyplnit kategorii-->
-              <div class="header-home-container">  
-                <p>Tipy na výlety <!--vyplnit kategorii--></p>
-              </div>
-            </a>
-            <div style="padding-left: 5px ;"> &#62;&#62;</div>
-          </div>
-          <div class="header-part">
-            <a href="../tipy-na-vylety/rac.html"><!--vyplnit odkaz na článek-->
-              <div class="header-home-container"> 
-                <p>Rač <!--vyplnit--> </p>
-              </div>
-            </a>
-          </div>         
-        </div>
+        <!--JS - header-->
       </header>
       <!--page nastavena na maximální šířku cca 900px-->
       <main class="page">
         <div class="content">
-          <div class="content-article">
-            
+          <div class="content-article"> 
             <!--grid na rozdělení článku a MENU-->
             <div class="article-grid">
               <div class="article-part">
@@ -67,7 +41,6 @@
                 
                 <img class="article-top-picture" src="../pictures/rac/rac-top.jpg">
 
-                
                 <p class="odstavec">Pořádný výhled to je  něco,  co se vozíčkáři nedostává tak často už proto, 
                   že výhled rovná se kopec a kopec rovná se velké úsilí ho zdolat.  Vyhlídka Rač je překvapivě 
                   dosažitelným piknikovým místem s výhledem takřka pohádkovým. Jdete si po zalesněném skalním 
@@ -89,21 +62,16 @@
                   po široké lesní cestě a dá se zvládnout 
                   slušně na všech typech vozíků. 
                                   
-                  <p class="odstavec">Jedinou kontraindikací k tomuto výletu je blátivé a deštivé počasí. 
-                    To v kombinaci s těžkou lesní technikou může z cesty nadělat pěknou a špatně sjízdnou paseku.
-                     Celá délka cesty je necelé dva kilometry, převýšení šedesát metrů, 
-                     ale měřítko kochání sto procent. 
+                <p class="odstavec">Jedinou kontraindikací k tomuto výletu je blátivé a deštivé počasí. 
+                  To v kombinaci s těžkou lesní technikou může z cesty nadělat pěknou a špatně sjízdnou paseku.
+                    Celá délka cesty je necelé dva kilometry, převýšení šedesát metrů, 
+                    ale měřítko kochání sto procent. 
                 </p>
-                
-                
-                
-                      
+                     
                 <div class="author-and-date-container">
-                  <div class="date-of-article">srpen 2020</div>
+                  <div class="date-of-article js-date-of-article"> <!--JS--> </div>
                 </div>
                 
-                
-
                 <div class="picture-grid-typ-three" style="margin-top: 30px;">
                   <img src="../pictures/rac/rac-1.jpeg" class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;">
                   <img src="../pictures/rac/rac-2.jpeg" class="gallery-img js-picture" style="width: 100%; height: 100%; object-fit: cover;">
@@ -112,35 +80,15 @@
 
                 <img src="../pictures/rac/rac-4.jpeg" class="gallery-img js-picture" style="width: 100%">
                 
-                <!-- Image containter where image will show in big size -->
-              <div class="image-popup-container" id="js-background-div">
-                <!--
-                <span class="close-button" onclick="closeImageButton()">×</span>
-                <span class="picture-next-button js-next-button"><img style="width: 40px" src="../icons/next.ico"></span>
-                <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
                 
-                <img src="" alt="Popup Image" id="popupImage">
-                -->
-              </div>
-
-                <script src="../article-picture.js"></script>
-
-                
-                
-                
-
-
-                
-
-                
-                
-
+                <div class="image-popup-container" id="js-background-div">
+                  <!-- Image containter where image will show in big size -->
+                </div>
                 <div class="next-previous-article-div">
                   <div class="js-next-article next-article-div"><!--here will be created next article link--></div>
                   <div class="js-previous-article previous-article-div"><!--here will be created previous article link--></div>
                 </div>
               </div>
-
 
               <!--začátek kódu pro MENU-->
               <nav class="nav-article">
@@ -148,14 +96,13 @@
               </nav>
             </div>
           </div>
-
         </div>
-          
-        </main>
-        <patka style="width: 100%;">
-          <script id="replace_with_patka" src="../patka.js"></script>
-        </patka>
-        <script type="module" src="../scripts/next-previous-articles.js"></script>
-        <script type="module" src="../scripts/header.js"></script>
+      </main>
+      <patka style="width: 100%;">
+        <script id="replace_with_patka" src="../patka.js"></script>
+      </patka>
+      <script src="../scripts/article-pictures.js"></script>
+      <script type="module" src="../scripts/next-previous-articles.js"></script>
+      <script type="module" src="../scripts/header.js"></script>
     </body>
   </html>

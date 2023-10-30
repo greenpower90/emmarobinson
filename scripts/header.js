@@ -3,8 +3,7 @@ import { currentArticle } from './next-previous-articles.js';
 
 
 let headerElement = '';
-let pageTitleElement = '';
-let articleTitle = document.querySelector('.js-title').innerHTML;
+//let articleTitle = document.querySelector('.js-title').innerHTML;
 
 headerElement += `
       <div class="header-container" >
@@ -42,5 +41,9 @@ if(headerElement === ''){
 
 }
 
-//console.log(headerElement);
-document.title = pageTitleElement;
+console.log(overviews[currentArticle].date);
+document.querySelector('.js-date-of-article')
+  .innerHTML = overviews[currentArticle].date;
+
+document.title = overviews[currentArticle].title;
+

@@ -27,4 +27,19 @@ export const mainPicture = [{
 },{
   src: 'Images/14.jpg'
 }
-]
+];
+
+export function loadRandomMainPicture(){
+
+  let images = mainPicture;
+  console.log(mainPicture);
+  let randomImageIndex = Math.floor(Math.random() * images.length)
+
+  console.log(`celkem fotek ${images.length}`);
+  console.log(`náhodné číslo na výběr fotky ${randomImageIndex}`);
+  console.log(`zdroj fotky na náhodném indexu: ${images[randomImageIndex].src}`)
+  
+  document.getElementsByTagName('mainpicture')[0].style.backgroundImage = `url(${images[randomImageIndex].src})`;
+  document.getElementsByTagName('mainpicture')[0].style.backgroundRepeat = "no-repeat";
+  document.getElementsByTagName('mainpicture')[0].style.backgroundSize = "100%";
+};
