@@ -83,8 +83,8 @@ export const gallery = [{
   id:'',
   description: '',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-010small.jpg',
-    full:'../gallery/pictures/gal-igm-010full.jpg',
+    small:'../gallery/pictures/gal-igm-010small.JPG',
+    full:'../gallery/pictures/gal-igm-010full.JPG',
   },
   dimension: {
     spanRow:'middle',
@@ -132,8 +132,8 @@ export const gallery = [{
   id:'',
   description: '',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-015small.png',
-    full:'../gallery/pictures/gal-igm-015full.png',
+    small:'../gallery/pictures/gal-igm-015small.PNG',
+    full:'../gallery/pictures/gal-igm-015full.PNG',
   },
   dimension: {
     spanRow:'middle',

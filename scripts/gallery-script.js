@@ -2,6 +2,7 @@ import { gallery } from "../data/gallery-data.js";
 
 let galleryGridElement = document.querySelector('.js-gallery-grid');
 
+//vytvoření HTML pro všechny fotky z gallery-data.js
 let galleryHTML = '';
 gallery.forEach((picture) => {
   galleryHTML += `
@@ -9,10 +10,7 @@ gallery.forEach((picture) => {
   src="${picture.fileLocation.small}">
   `;
 });
-
 galleryGridElement.innerHTML = galleryHTML;
-
-
 
 
 const allPictures = document.querySelectorAll('.js-picture');
@@ -28,24 +26,25 @@ allPictures.forEach((picture, index) => {
     <span class="picture-next-button js-next-button"><img style="width: 40px" src="../icons/next.ico"></span>
     <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
     <img src="" alt="Popup Image" id="popupImage">
-    `
+    `;
 
     //a zobrazí se příslušná fotka
     let showPictureElement = document.getElementById("popupImage");
-    showPictureElement.src = picture.src
+    //showPictureElement.src = picture.src
+    showPictureElement.src = gallery[index].fileLocation.full;
 
     let nextButtonElement = document.querySelector('.js-next-button');
     nextButtonElement.addEventListener('click', () => {
       if(index === allPictures.length -1){
         index = 0;
         console.log(index);
-        showPictureElement.src = allPictures[index].src;
+        showPictureElement.src = gallery[index].fileLocation.full;
         showPictureElement.addEventListener('animationend', onAnimationEnd);
       }
       else{
       console.log(index);
-      showPictureElement.src = allPictures[index+1].src
       index++;
+      showPictureElement.src = gallery[index].fileLocation.full;
       console.log(picture.src);
       };
     });
@@ -56,12 +55,12 @@ allPictures.forEach((picture, index) => {
       if(index === 0){
         index = allPictures.length -1;
         console.log(index);
-        showPictureElement.src = allPictures[index].src;
+        showPictureElement.src = gallery[index].fileLocation.full;
       }
       else{
       console.log(index);
-      showPictureElement.src = allPictures[index-1].src
       index--;
+      showPictureElement.src = gallery[index].fileLocation.full
       console.log(picture.src);
       }
     });

@@ -1,0 +1,14 @@
+.gallery-grid{
+  padding: 30px;  
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px;
+}
+
+
+@media (max-width:750px){
+  .gallery-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
