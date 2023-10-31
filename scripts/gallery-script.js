@@ -6,8 +6,10 @@ let galleryGridElement = document.querySelector('.js-gallery-grid');
 let galleryHTML = '';
 gallery.forEach((picture) => {
   galleryHTML += `
-  <img class="gallery-img js-picture ${picture.dimension.spanRow} ${picture.dimension.spanCollumn}" style="width: 100%; height:100%; object-fit: cover;" 
-  src="${picture.fileLocation.small}">
+      <img class="gallery-img js-picture ${picture.dimension.spanRow} ${picture.dimension.spanCollumn}" 
+      style="width: 100%; height:100%; style="object-fit: cover; "
+      src="${picture.fileLocation.small}"
+      data-full-picture="${picture.fileLocation.full}">
   `;
 });
 galleryGridElement.innerHTML = galleryHTML;
@@ -25,13 +27,13 @@ allPictures.forEach((picture, index) => {
     <span class="close-button js-close-button">×</span>
     <span class="picture-next-button js-next-button"><img style="width: 40px" src="../icons/next.ico"></span>
     <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
-    <img src="" alt="Popup Image" id="popupImage">
+    <img src="${picture.dataset.fullPicture}" alt="Popup Image" id="popupImage">
     `;
 
     //a zobrazí se příslušná fotka
     let showPictureElement = document.getElementById("popupImage");
     //showPictureElement.src = picture.src
-    showPictureElement.src = gallery[index].fileLocation.full;
+    //showPictureElement.src = gallery[index].fileLocation.full;
 
     let nextButtonElement = document.querySelector('.js-next-button');
     nextButtonElement.addEventListener('click', () => {
@@ -39,7 +41,7 @@ allPictures.forEach((picture, index) => {
         index = 0;
         console.log(index);
         showPictureElement.src = gallery[index].fileLocation.full;
-        showPictureElement.addEventListener('animationend', onAnimationEnd);
+        
       }
       else{
       console.log(index);
