@@ -75,10 +75,13 @@ export const gallery = [{
   id:'',
   description: '',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-009small.jpg',
-    full:'../gallery/pictures/gal-igm-009full.jpg',
+    small:'../gallery/pictures/gal-igm-022small.jpg',
+    full:'../gallery/pictures/gal-igm-022full.jpg',
   },
-  dimension:'',
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
 },{
   id:'',
   description: '',
@@ -98,8 +101,8 @@ export const gallery = [{
     full:'../gallery/pictures/gal-igm-011full.jpg',
   },
   dimension: {
-    spanRow:'middle',
-    spanCollumn: 'wide'
+    spanRow:'',
+    spanCollumn: ''
   },
 },{
   id:'',
@@ -113,21 +116,13 @@ export const gallery = [{
   id:'',
   description: '',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-013small.jpg',
-    full:'../gallery/pictures/gal-igm-013full.jpg',
-  },
-  dimension: {
-    spanRow:'middle',
-    spanCollumn: ''
-  },
-},{
-  id:'',
-  description: '',
-  fileLocation:{
     small:'../gallery/pictures/gal-igm-014small.jpg',
     full:'../gallery/pictures/gal-igm-014full.jpg',
   },
-  dimension:'',
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
 },{
   id:'',
   description: '',
@@ -146,7 +141,153 @@ export const gallery = [{
     small:'../gallery/pictures/gal-igm-016small.jpg',
     full:'../gallery/pictures/gal-igm-016full.jpg',
   },
-  dimension:'',
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-017small.jpg',
+    full:'../gallery/pictures/gal-igm-017full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-018small.jpg',
+    full:'../gallery/pictures/gal-igm-018full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-019small.jpg',
+    full:'../gallery/pictures/gal-igm-019full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-020small.jpg',
+    full:'../gallery/pictures/gal-igm-020full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-021small.jpg',
+    full:'../gallery/pictures/gal-igm-021full.jpg',
+  },
+  dimension: {
+    spanRow:'tall',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-023small.jpg',
+    full:'../gallery/pictures/gal-igm-023full.jpg',
+  },
+  dimension: {
+    spanRow:'tall',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-024small.jpg',
+    full:'../gallery/pictures/gal-igm-024full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-025small.jpg',
+    full:'../gallery/pictures/gal-igm-025full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-026small.jpg',
+    full:'../gallery/pictures/gal-igm-026full.jpg',
+  },
+  dimension: {
+    spanRow:'tall',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-027small.jpg',
+    full:'../gallery/pictures/gal-igm-027full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-028small.PNG',
+    full:'../gallery/pictures/gal-igm-028full.PNG',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-029small.PNG',
+    full:'../gallery/pictures/gal-igm-029full.PNG',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'',
+  description: '',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-030small.PNG',
+    full:'../gallery/pictures/gal-igm-030full.PNG',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
 },]
 
 
