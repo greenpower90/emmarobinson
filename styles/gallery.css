@@ -25,7 +25,7 @@
   grid-column: span 2;
 }
 
-@media (max-width:750px){
+@media (max-width:900px){
   .gallery-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
