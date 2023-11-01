@@ -1,9 +1,12 @@
 import { gallery } from "../data/gallery-data.js";
 
+
+
 let galleryGridElement = document.querySelector('.js-gallery-grid');
 
 //vytvoření HTML pro všechny fotky z gallery-data.js
 let galleryHTML = '';
+
 gallery.forEach((picture) => {
   galleryHTML += `
       <img class="gallery-img js-picture ${picture.dimension.spanRow} ${picture.dimension.spanCollumn}" 
@@ -18,7 +21,12 @@ galleryGridElement.innerHTML = galleryHTML;
 const allPictures = document.querySelectorAll('.js-picture');
 
 allPictures.forEach((picture, index) => {
+  
   picture.addEventListener('click', () => {
+    let resetIndex = index;
+
+    console.log(`index z řady fotek .js-picture ${index}`)
+    
     //po kliknutí na jakoukoliv fotku se vytvoří tmavé pozadí přes celou stránku
     let backgroundElement = document.getElementById("js-background-div");
     backgroundElement.style.display = "block";
@@ -41,29 +49,26 @@ allPictures.forEach((picture, index) => {
         index = 0;
         console.log(index);
         showPictureElement.src = gallery[index].fileLocation.full;
-        
       }
       else{
-      console.log(index);
+      
       index++;
+      console.log(index);
       showPictureElement.src = gallery[index].fileLocation.full;
-      console.log(picture.src);
       };
     });
 
     let previousButtonElement = document.querySelector('.js-previous-button');
     previousButtonElement.addEventListener('click', () => {
-      console.log(index);
       if(index === 0){
         index = allPictures.length -1;
         console.log(index);
         showPictureElement.src = gallery[index].fileLocation.full;
       }
       else{
-      console.log(index);
       index--;
+      console.log(index);
       showPictureElement.src = gallery[index].fileLocation.full
-      console.log(picture.src);
       }
     });
 
@@ -72,10 +77,17 @@ allPictures.forEach((picture, index) => {
       let imagePopup = document.getElementById("js-background-div");
       imagePopup.style.display = "none";
       document.body.style.overflow = "auto";
+      index = resetIndex;
     });
     // function to hide the image when we click on cross button
   });
+  
+  
+  
+
+
 });
+
 
 
 
