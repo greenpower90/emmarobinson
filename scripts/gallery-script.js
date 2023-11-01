@@ -73,9 +73,7 @@ allPictures.forEach((picture, index) => {
       imagePopup.style.display = "none";
       document.body.style.overflow = "auto";
     });
-
     // function to hide the image when we click on cross button
-    
   });
 });
 
