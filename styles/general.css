@@ -182,6 +182,7 @@ a, a:hover, a:active, a:visited, a:focus {
 .article-container.vyznani:hover{
   box-shadow: none;
   border: none;
+  cursor:none
 }
 
 .continue-reading-container{

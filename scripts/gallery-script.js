@@ -50,8 +50,7 @@ allPictures.forEach((picture, index) => {
         console.log(index);
         showPictureElement.src = gallery[index].fileLocation.full;
       }
-      else{
-      
+      else{ 
       index++;
       console.log(index);
       showPictureElement.src = gallery[index].fileLocation.full;

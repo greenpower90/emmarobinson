@@ -27,19 +27,19 @@ export const overviews = [
   articleLink:'',
   title: 'Vyznání',
   text: `
-  Poznám ho koutkem oka.<br>
-                    Z dálky deseti metrů.<br>
-                    Poznám ho poslepu,<br>
-                    podle způsobu dechu.<br>
-                    Probudí mě ze spaní, <br>
-                    Vidím ho, když se zahledíš,<br>
-                    bere mi dech..<br>
-                    <br>
-                    Někdy dělám, že ho nevidím.<br>
-                    Kde jsme to skončili?<br>
-                    Zeptám se jen tak mimochodem,<br> když odchází.<br>
-                    Starý známý.<br><br>
-                    Epileptický záchvat….`,
+    Poznám ho koutkem oka.<br>
+    Z dálky deseti metrů.<br>
+    Poznám ho poslepu,<br>
+    podle způsobu dechu.<br>
+    Probudí mě ze spaní, <br>
+    Vidím ho, když se zahledíš,<br>
+    bere mi dech..<br>
+    <br>
+    Někdy dělám, že ho nevidím.<br>
+    Kde jsme to skončili?<br>
+    Zeptám se jen tak mimochodem,<br> když odchází.<br>
+    Starý známý.<br><br>
+    Epileptický záchvat….`,
   readMore: '',
 },{//článek - Hvar voní - srpen 2022
   articleId: 'tnv-hvar',
