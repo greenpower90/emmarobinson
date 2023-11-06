@@ -21,7 +21,7 @@ overviews.forEach((articleOverview, index) => {
       <a href="${articleOverview.articleLink}" >
         <div class="article-title">${articleOverview.title}</div>
       </a>
-      <a class="article-overview"  href="${articleOverview.articleLink}">
+      <a class="article-overview cursor-pointer"  href="${articleOverview.articleLink}">
         <div class="article-overview">
           ${articleOverview.text}
         </div>

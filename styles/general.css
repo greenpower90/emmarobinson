@@ -159,9 +159,12 @@ a, a:hover, a:active, a:visited, a:focus {
   line-height: 22px;
   color: rgb(0, 0, 0);
   font-weight: 400;
-  cursor: pointer;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.article-overview .cursor-pointer{
+  cursor: pointer;
 }
 
 .author-and-date-container{
@@ -182,7 +185,6 @@ a, a:hover, a:active, a:visited, a:focus {
 .article-container.vyznani:hover{
   box-shadow: none;
   border: none;
-  cursor:none
 }
 
 .continue-reading-container{

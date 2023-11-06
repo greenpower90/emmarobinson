@@ -19,7 +19,7 @@ overviews.forEach((articleOverview, index) => {
       </div>
     </div>
     <a href="${articleOverview.articleLink}">
-      <img class="overview-picture" src="${articleOverview.picture}">
+      <img class="overview-picture cursor-pointer" src="${articleOverview.picture}">
     </a>
 
     <a href="${articleOverview.articleLink}" >

@@ -35,7 +35,7 @@ overviews.forEach((articleOverview) => {
       </a>
 
       <a class="article-overview"  href="${articleOverview.articleLink}">
-        <div class="article-overview">
+        <div class="article-overview cursor-pointer">
           ${articleOverview.text}
         </div>
       </a>
