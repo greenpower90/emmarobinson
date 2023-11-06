@@ -1,6 +1,8 @@
 <!DOCTYPE html>
   <html>
-    <head>
+    <head lang="cs">
+      <meta charset="UTF-8">
+
       <title>Jmenuju se Emma Robinson</title> <!--vyplnit-->
 
       <link rel="stylesheet" href="../../styles/general.css">
@@ -10,6 +12,10 @@
 
       <!--Meta viewport nastaven pro upravení stránek pro mobilní zařízení-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="keywords" content="život s postižením, cestování s postižením, domácí péče, 5tý stupeň,">
+      <meta name="author" content="Emma Robinson">
+      <meta name="description" content="život s postižením, domácí péče"><!--VYPLNIT-->
       
       
       <!--Fonty-->
@@ -19,7 +25,7 @@
     </head>
     <body>
       <!--horní lišta - vyplnit kategorii, článek a odkazy-->
-      <header class="header">
+      <header>
         <div class="header-container" >
           <div class="header-part">
             <a href="../index.html">
@@ -28,18 +34,20 @@
                 <p>Home</p>
               </div>
             </a>
-            <div style="padding-left: 5px ;"> &#62;&#62;</div>
+            <div class="header-home-container" style="width: 15px;"><img style="width: 100%; padding-left: 5px; padding-right: 5px;" src="/icons/shark.png" ></div>
           </div>
           
           <div class="header-part">
-            <a href="../other/Jmenuju-se-Emma-Robinson.html"><!--vyplnit odkaz na článek-->
+            <a href="../other/Jmenuju-se-Emma-Robinson.html">
               <div class="header-home-container"> 
-                <p>Jmenuju se Emma Robinson <!--vyplnit nazev članku--> </p>
+                <p>O mně</p>
               </div>
             </a>
           </div>         
+  
         </div>
       </header>
+      
       <!--page nastavena na maximální šířku cca 900px-->
       <main class="page">
         <div class="content">
@@ -94,16 +102,16 @@
               </div>
               <!--začátek kódu pro MENU - Menu se nahrává přes JavaScript-->
               <nav class="nav-article">
-                <script id="replace_with_navbar" src="../nav.js"></script>
+                <script id="replace_with_navbar" src="../scripts/nav.js"></script>
               </nav>
             </div>
           </div>
 
         </div>
 
-        <patka style="width: 100%;">
-          <script id="replace_with_patka" src="../patka.js"></script>
-        </patka>
+        <footer style="width: 100%;">
+          <script id="replace_with_footer" src="../scripts/footer.js"></script>
+        </footer>
           
       </main>
       <script src="../data/overviews-data.js"></script>

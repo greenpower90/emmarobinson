@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="cs">
     <head>
+      <meta charset="UTF-8">
 
       <title>Vzkazy v láhvi</title>
       <link rel = "icon" href ="../icons/icon.jpg" 
@@ -13,6 +14,10 @@
       <link rel="stylesheet" href="styles/rozhlas.css">
       <!--Meta viewport nastaven pro upravení stránek pro mobilní zařízení-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="keywords" content="život s postižením, cestování s postižením, domácí péče, 5tý stupeň,">
+      <meta name="author" content="Emma Robinson">
+      <meta name="description" content="život s postižením, domácí péče"><!--VYPLNIT-->
       
       <!--Fonty-->
       <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
@@ -22,23 +27,23 @@
 
     </head>
     <body>
-      <header class="header">
+      <header>
         <div class="header-container" >
           <div class="header-part">
-            <a href="index.html">
+            <a href="../index.html">
               <div class="header-home-container"> 
-                <img class="home-icon" src="icons/home.png"> 
+                <img class="home-icon" src="../icons/home.png"> 
                 <p>Home</p>
               </div>
             </a>
-            <div style="padding-left: 5px ;"> &#62;&#62;</div>
+            <div class="header-home-container" style="width: 15px;"><img style="width: 100%; padding-left: 5px; padding-right: 5px;" src="/icons/shark.png" ></div>
           </div>
           <div class="header-part">
             <a href="vzkazy-all.html">
               <div class="header-home-container">  
                 <p>Vzkazy v láhvi</p>
               </div>
-            </a>
+            </a> 
           </div>
         </div>
       </header>
@@ -56,8 +61,8 @@
               <!--Here will be displayed vzkazy v lahvi cathegory-->
             </div>
             
-            <nav>
-                <script id="replace_with_navbar" src="nav.js"></script>
+            <nav class="nav-article">
+              <script id="replace_with_navbar" src="scripts/nav.js"></script>
             </nav>
           </div>
         </div>
@@ -67,7 +72,7 @@
       </main>
       
       <footer style="width: 100%;">
-        <script id="replace_with_patka" src="../patka.js"></script>
+        <script id="replace_with_footer" src="scripts/footer.js"></script>
       </footer>
     </body>
   </html>
