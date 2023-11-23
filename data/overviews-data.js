@@ -9,6 +9,7 @@ export const overviews = [
     },
   date: 'říjen 2023',
   picture: 'pictures/pane-boze-jenom-to-ne/pane-boze-jenom-to-ne.jpg',
+  pictureAlt:'žena a keř',
   articleLink:'vzkazy-v-lahvi/pane-boze-jenom-to-ne.html',
   title: 'Pane Bože jenom to ne',
   text: 'Prosila jsem, když jsem Tebe a Tvého syna viděla poprvé v životě v nemocničním pokoji, kde jsme spolu strávily měsíc, milá moja. Tvůj chlapeček byl roční a kousek a mému byly jen tři měsíce. Na tvém malém byly znát všechny ty mozkové operace (dohromady jich prodělal za svůj život osm) a já původním povoláním rehabilitační sestra, poprvé v životě, viděla postižené dítě.',
@@ -24,6 +25,7 @@ export const overviews = [
     },
   date: '',
   picture: '',
+  pictureAlt:'',
   articleLink:'',
   title: 'Vyznání',
   text: `
@@ -51,6 +53,7 @@ export const overviews = [
     },
   date: 'srpen 2022',
   picture: 'pictures/hvar/hvar-overview.jpg"',
+  pictureAlt:'Žena plave v moři',
   articleLink:'tipy-na-vylety/hvar.html',
   title: 'Hvar voní',
   text: 'Rozmarýnem, levandulí, piniemi, šalvějí a divokým horským tymiánem. Ano, zvlášť dobře si to uvědomíte v horách… na skútříku, po cestě z hlavního města, zadem, po staré úzké silnici...',
@@ -65,6 +68,7 @@ export const overviews = [
     },
   date: 'prosinec 2022',
   picture: 'pictures/krumlov/krumlov-overview.jpg',
+  pictureAlt:'Jakub na vozíku v Českém Krumlově',
   articleLink:'tipy-na-vylety/krumlov.html',
   title: 'Jak se Kubimu líbilo v Českém Krumlově?',
   text: `Moc. A pro nás byla jeho radost obrovskou satisfakcí.  
@@ -81,6 +85,7 @@ export const overviews = [
     },
   date: '',
   picture: '',
+  pictureAlt:'',
   articleLink:'',
   title: 'Sebevědomí',
   text: `Nijak nesouvisí s dokonalostí <br>
@@ -101,6 +106,7 @@ export const overviews = [
     },
   date: 'srpen 2022',
   picture: 'pictures/karavan/karavan-top-overview.jpg',
+  pictureAlt:'prázdný invalidní vozík na nájezdové plošině do moře',
   articleLink:'tipy-na-vylety/karavan.html',
   title: 'Bezbariérovým karavanem k moři',
   text: `Charlie Tramp je miláček.  
@@ -117,6 +123,7 @@ export const overviews = [
     },
   date: 'leden 2021',
   picture: 'pictures/covece-nemuzu-se-pohnout/nemuzu-se-pohnout-overview.jpg',
+  pictureAlt:'žena na kopci a další kopce v pozadí',
   articleLink:'vzkazy-v-lahvi/nemuzu-se-pohnout.html',
   title: 'Člověče, já se nemůžu pohnout',
   text: `Ty taky ne viď ? Kuba se na mě výmluvně podívá.
@@ -132,6 +139,7 @@ export const overviews = [
     },
   date: 'červen 2021',
   picture: 'pictures/a-co-ted/a-co-ted-overview.jpg',
+  pictureAlt:'žena sedí na zemi a před ní leží sklenice',
   articleLink:'vzkazy-v-lahvi/a-co-ted.html',
   title: 'A co teď?',
   text: `Vždycky se ocitneš tam, kam si došel. K jaké činnosti ses dostal, takovou vykonáváš. 
@@ -148,6 +156,7 @@ export const overviews = [
     },
   date: 'leden 2021',
   picture: 'pictures/rac/rac-overview-tall.jpg',
+  pictureAlt:'Jakub a Emma na speciálním kole v přírodě',
   articleLink:'tipy-na-vylety/rac.html',
   title: 'Rač',
   text: `Pořádný výhled to je  něco,  co se vozíčkáři 
@@ -165,6 +174,7 @@ export const overviews = [
     },
   date: 'listopad 2020',
   picture: 'pictures/babi/babi-top-overview.JPEG',
+  pictureAlt:'věnec',
   articleLink:'vzkazy-v-lahvi/babi.html',
   title: 'Babi',
   text: `A teď tu sedím a na sobě mám babičky krimplenový béžový  šaty s bledě 
@@ -180,6 +190,7 @@ export const overviews = [
     },
   date: 'září 2020',
   picture: 'pictures/termalni-lazne-sturovo/sturovo-overview.jpg',
+  pictureAlt:'Emma a Jakub ve vodě',
   articleLink:'tipy-na-vylety/termalni-lazne-sturovo.html',
   title: 'Termální lázně Štúrovo',
   text: `Je po létě.Před týdnem jsme se vrátili z termálních lázní Vadaš – Štúrovo. 
@@ -196,6 +207,7 @@ export const overviews = [
     },
   date: 'srpen 2020',
   picture: 'pictures/vite-ze-jste-hrdinka/vite-ze-jste-hrdinka-overview.jpg',
+  pictureAlt:'žena cvičí jógu v přírodě',
   articleLink:'vzkazy-v-lahvi/vite-ze-jste-hrdinka.html',
   title: 'Víte, že jste hrdinka?',
   text: `Zeptal se mě dneska pán ve výtahu na Floře . Zvedám zrak od 
@@ -212,6 +224,7 @@ export const overviews = [
     },
   date: 'červenec 2020',
   picture: 'pictures/senftenberger-see/senftenberger-see-overview.jpg',
+  pictureAlt:'lidé na invalidních vozíkách u břehu jezera',
   articleLink:'tipy-na-vylety/Senftenberger-See.html',
   title: 'Senftenberger See',
   text: `Pustili jsme si soundtrack z filmu Dare to be wild a stočili fáro na sever. 
@@ -227,6 +240,7 @@ export const overviews = [
     },
   date: '',
   picture: '',
+  pictureAlt:'',
   articleLink:'',
   title: '',
   text: `O Santiago<br>
@@ -246,6 +260,7 @@ export const overviews = [
     },
   date: 'červenec 2020',
   picture: 'pictures/klaster tepla/klaster-tepla-top-overview.jpg',
+  pictureAlt:'klášter',
   articleLink:'tipy-na-vylety/klaster-tepla.html',
   title: 'Hotel Klášter Teplá',
   text: `Prostor – to je klíčové slovo pro tepelskou pahorkatinu i pro hotel Klášter Teplá. 
@@ -261,6 +276,7 @@ export const overviews = [
     },
   date: 'březen 2020',
   picture: 'pictures/nekde-musi-byt-duha/nekde-musi-byt-duha.jpg',
+  pictureAlt:'Jakub v houpací síti',
   articleLink:'vzkazy-v-lahvi/nekde-musi-byt-duha.html',
   title: 'Někde musí být duha',
   text: `Nevím, kolikrát jsem v noci u Kuby v pokojíčku byla, ale nakonec jsem tam zůstala. Mačkali jsme se tam v jeho modrým autíčku/posteli, co dostal k šestnáctým narozeninám místo řidičáku, než konečně usnul. Kombinace farmakoresistentní epilepsie a spastických bolestivých křečí generuje dost důvodů nespat.
@@ -276,6 +292,7 @@ export const overviews = [
     },
   date: 'květen 2016',
   picture: 'pictures/je-to-pryc/je-to-pryc.JPEG',
+  pictureAlt:'detail na dva páry nohou',
   articleLink:'vzkazy-v-lahvi/je-to-pryc.html',
   title: 'Je to pryč',
   text: `Je vedro. Dala jsem Kubiho k volantu a že natřu ten stůl, zatímco si bude hrát. V garáži je chladno a to je prima dneska, no ne? Pustila jsem muziku, sedla si na chvilku vedle něj, na místo spolujezdce. Dělávali jsme to takhle a měl to vždycky moc rád. Tak kam jedem Kubi? Kuba za volantem se na mě tázavě podíval.`,
@@ -288,6 +305,7 @@ export const overviews = [
     },
   date: '',
   picture: '',
+  pictureAlt:'',
   articleLink:'',
   title: '',
   text: '',

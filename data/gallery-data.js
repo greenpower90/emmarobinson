@@ -136,10 +136,10 @@ export const gallery = [{
   },
 },{
   id:'',
-  alt: 'asistence při demonstraci',
+  alt: 'Jakub a asistentka Stázka',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-015small.PNG',
-    full:'../gallery/pictures/gal-igm-015full.PNG',
+    small:'../gallery/pictures/gal-igm-015small.jpg',
+    full:'../gallery/pictures/gal-igm-015full.jpg',
   },
   dimension: {
     spanRow:'picture-height-middle',
