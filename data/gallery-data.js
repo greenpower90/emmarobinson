@@ -1,6 +1,6 @@
 export const gallery = [{
   id:'gal-00jf-jd-fe-67',
-  description: 'Jakub a jeho asistent, víkend v Krkonoších.',
+  alt: 'Jakub a jeho asistent, víkend v Krkonoších.',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-001small.JPG',
     full:'../gallery/pictures/gal-igm-001full.JPG',
@@ -11,7 +11,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'chorvatsko - Jakub s asistentkou',
+  alt: 'chorvatsko - Jakub s asistentkou',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-002small.png',
     full:'../gallery/pictures/gal-igm-002full.png',
@@ -22,7 +22,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence při oblékání',
+  alt: 'asistence při oblékání',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-003small.jpg',
     full:'../gallery/pictures/gal-igm-003full.jpg',
@@ -33,7 +33,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'čištění zubů asistentkou',
+  alt: 'čištění zubů asistentkou',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-004small.jpg',
     full:'../gallery/pictures/gal-igm-004full.jpg',
@@ -41,7 +41,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'asistentka hraje Kubovi na kytaru',
+  alt: 'asistentka hraje Kubovi na kytaru',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-005small.jpg',
     full:'../gallery/pictures/gal-igm-005full.jpg',
@@ -49,7 +49,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'asistent umývá jakubovi ruce',
+  alt: 'asistent umývá jakubovi ruce',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-006small.jpg',
     full:'../gallery/pictures/gal-igm-006full.jpg',
@@ -57,7 +57,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'asistentka, Jakub a Lex 1',
+  alt: 'asistentka, Jakub a Lex 1',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-007small.jpg',
     full:'../gallery/pictures/gal-igm-007full.jpg',
@@ -65,7 +65,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'asistentka, Jakub a Lex 2',
+  alt: 'asistentka, Jakub a Lex 2',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-008small.jpg',
     full:'../gallery/pictures/gal-igm-008full.jpg',
@@ -73,7 +73,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'koupání sadská',
+  alt: 'koupání sadská',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-022small.jpg',
     full:'../gallery/pictures/gal-igm-022full.jpg',
@@ -84,7 +84,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistent Adam + kytara',
+  alt: 'asistent Adam + kytara',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-010small.JPG',
     full:'../gallery/pictures/gal-igm-010full.JPG',
@@ -95,7 +95,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence kreslení 1',
+  alt: 'asistence kreslení 1',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-011small.jpg',
     full:'../gallery/pictures/gal-igm-011full.jpg',
@@ -106,7 +106,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence kreslení 2',
+  alt: 'asistence kreslení 2',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-012small.jpg',
     full:'../gallery/pictures/gal-igm-012full.jpg',
@@ -114,7 +114,7 @@ export const gallery = [{
   dimension:'',
 },{
   id:'',
-  description: 'asistence při pokládání',
+  alt: 'asistence při pokládání',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-014small.jpg',
     full:'../gallery/pictures/gal-igm-014full.jpg',
@@ -125,7 +125,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistentka a hromada kartiček',
+  alt: 'asistentka a hromada kartiček',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-016small.jpg',
     full:'../gallery/pictures/gal-igm-016full.jpg',
@@ -136,7 +136,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence při demonstraci',
+  alt: 'asistence při demonstraci',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-015small.PNG',
     full:'../gallery/pictures/gal-igm-015full.PNG',
@@ -147,7 +147,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistent + kolo',
+  alt: 'asistent + kolo',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-017small.jpg',
     full:'../gallery/pictures/gal-igm-017full.jpg',
@@ -158,7 +158,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence ve vlaku',
+  alt: 'asistence ve vlaku',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-018small.jpg',
     full:'../gallery/pictures/gal-igm-018full.jpg',
@@ -169,7 +169,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistentka + kolo v zimě',
+  alt: 'asistentka + kolo v zimě',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-019small.jpg',
     full:'../gallery/pictures/gal-igm-019full.jpg',
@@ -180,7 +180,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistentka + kolo léto',
+  alt: 'asistentka + kolo léto',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-020small.jpg',
     full:'../gallery/pictures/gal-igm-020full.jpg',
@@ -191,7 +191,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence vibrační plošina',
+  alt: 'asistence vibrační plošina',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-021small.jpg',
     full:'../gallery/pictures/gal-igm-021full.jpg',
@@ -202,7 +202,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'zalévání konví',
+  alt: 'zalévání konví',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-023small.jpg',
     full:'../gallery/pictures/gal-igm-023full.jpg',
@@ -213,7 +213,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'koupání štúrovo',
+  alt: 'koupání štúrovo',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-024small.jpg',
     full:'../gallery/pictures/gal-igm-024full.jpg',
@@ -224,7 +224,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence fénování',
+  alt: 'asistence fénování',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-025small.jpg',
     full:'../gallery/pictures/gal-igm-025full.jpg',
@@ -235,7 +235,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistence čištění zubů pod stanem',
+  alt: 'asistence čištění zubů pod stanem',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-026small.jpg',
     full:'../gallery/pictures/gal-igm-026full.jpg',
@@ -246,7 +246,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistentka+Jakub+Emma',
+  alt: 'asistentka+Jakub+Emma',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-027small.jpg',
     full:'../gallery/pictures/gal-igm-027full.jpg',
@@ -257,7 +257,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'asistent kartičky ano ne',
+  alt: 'asistent kartičky ano ne',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-028small.PNG',
     full:'../gallery/pictures/gal-igm-028full.PNG',
@@ -268,7 +268,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'počítač ovládaný očima',
+  alt: 'počítač ovládaný očima',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-029small.PNG',
     full:'../gallery/pictures/gal-igm-029full.PNG',
@@ -279,10 +279,10 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'Jakub a iPad',
+  alt: 'Jakub s asistentkou',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-030small.PNG',
-    full:'../gallery/pictures/gal-igm-030full.PNG',
+    small:'../gallery/pictures/gal-igm-030small.jpg',
+    full:'../gallery/pictures/gal-igm-030full.jpg',
   },
   dimension: {
     spanRow:'',
@@ -290,7 +290,7 @@ export const gallery = [{
   },
 },{
   id:'',
-  description: 'koupání sadská david a jakub',
+  alt: 'koupání sadská david a jakub',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-031small.jpg',
     full:'../gallery/pictures/gal-igm-031full.jpg',
