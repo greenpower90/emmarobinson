@@ -12,7 +12,9 @@ gallery.forEach((picture) => {
       <img class="gallery-img js-picture ${picture.dimension.spanRow} ${picture.dimension.spanCollumn}" 
       style="width: 100%; height:100%; style="object-fit: cover; "
       src="${picture.fileLocation.small}"
-      data-full-picture="${picture.fileLocation.full}">
+      alt="${picture.alt}"
+      data-full-picture="${picture.fileLocation.full}"
+      id=${picture.id}>
   `;
 });
 galleryGridElement.innerHTML = galleryHTML;

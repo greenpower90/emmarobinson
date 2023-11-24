@@ -1,5 +1,5 @@
 export const gallery = [{
-  id:'gal-00jf-jd-fe-67',
+  id:'gal-01',
   alt: 'Jakub a asistentka - podávání jídla',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-001small.JPG',
@@ -10,7 +10,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-02',
   alt: 'chorvatsko - Jakub s asistentkou',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-002small.png',
@@ -21,7 +21,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-03',
   alt: 'asistence při oblékání',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-003small.jpg',
@@ -32,7 +32,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-04',
   alt: 'čištění zubů asistentkou',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-004small.jpg',
@@ -40,7 +40,7 @@ export const gallery = [{
   },
   dimension:'',
 },{
-  id:'',
+  id:'gal-05',
   alt: 'asistentka hraje Kubovi na kytaru',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-005small.jpg',
@@ -48,7 +48,7 @@ export const gallery = [{
   },
   dimension:'',
 },{
-  id:'',
+  id:'gal-06',
   alt: 'asistent umývá jakubovi ruce',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-006small.jpg',
@@ -56,7 +56,7 @@ export const gallery = [{
   },
   dimension:'',
 },{
-  id:'',
+  id:'gal-07',
   alt: 'asistentka, Jakub a Lex 1',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-007small.jpg',
@@ -64,15 +64,15 @@ export const gallery = [{
   },
   dimension:'',
 },{
-  id:'',
-  alt: 'asistentka, Jakub a Lex 2',
+  id:'gal-08',
+  alt: 'Jakub a asistentka Stázka',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-008small.jpg',
     full:'../gallery/pictures/gal-igm-008full.jpg',
   },
   dimension:'',
 },{
-  id:'',
+  id:'gal-09',
   alt: 'koupání sadská',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-022small.jpg',
@@ -83,7 +83,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-10',
   alt: 'asistent Adam + kytara',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-010small.JPG',
@@ -94,7 +94,7 @@ export const gallery = [{
     spanCollumn: 'picture-wide'
   },
 },{
-  id:'',
+  id:'gal-11',
   alt: 'asistence kreslení 1',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-011small.jpg',
@@ -105,7 +105,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-12',
   alt: 'asistence kreslení 2',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-012small.jpg',
@@ -113,7 +113,7 @@ export const gallery = [{
   },
   dimension:'',
 },{
-  id:'',
+  id:'gal-13',
   alt: 'asistence při pokládání',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-014small.jpg',
@@ -124,7 +124,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-14',
   alt: 'asistentka a hromada kartiček',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-016small.jpg',
@@ -135,8 +135,8 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
-  alt: 'Jakub a asistentka Stázka',
+  id:'gal-15',
+  alt: 'Jakub na demonstraci',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-015small.jpg',
     full:'../gallery/pictures/gal-igm-015full.jpg',
@@ -146,7 +146,7 @@ export const gallery = [{
     spanCollumn: 'picture-wide'
   },
 },{
-  id:'',
+  id:'gal-16',
   alt: 'asistent a jakub při podávání jídla',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-017small.jpg',
@@ -157,7 +157,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-17',
   alt: 'asistence ve vlaku',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-018small.jpg',
@@ -168,7 +168,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-18',
   alt: 'asistentka + kolo v zimě',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-019small.jpg',
@@ -179,7 +179,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-19',
   alt: 'asistentka + kolo léto',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-020small.jpg',
@@ -190,7 +190,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-20',
   alt: 'asistence vibrační plošina',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-021small.jpg',
@@ -201,7 +201,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-21',
   alt: 'zalévání konví',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-023small.jpg',
@@ -212,7 +212,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-22',
   alt: 'koupání štúrovo',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-024small.jpg',
@@ -223,7 +223,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-23',
   alt: 'asistence fénování',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-025small.jpg',
@@ -234,7 +234,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-24',
   alt: 'asistence čištění zubů pod stanem',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-026small.jpg',
@@ -245,7 +245,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-25',
   alt: 'asistentka+Jakub+Emma',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-027small.jpg',
@@ -256,7 +256,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-26',
   alt: 'asistent kartičky ano ne',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-028small.PNG',
@@ -267,7 +267,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-27',
   alt: 'počítač ovládaný očima',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-029small.PNG',
@@ -278,7 +278,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-28',
   alt: 'Jakub s asistentkou',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-030small.jpg',
@@ -289,7 +289,7 @@ export const gallery = [{
     spanCollumn: ''
   },
 },{
-  id:'',
+  id:'gal-29',
   alt: 'koupání sadská david a jakub',
   fileLocation:{
     small:'../gallery/pictures/gal-igm-031small.jpg',

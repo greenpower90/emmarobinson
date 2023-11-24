@@ -2,6 +2,7 @@ import { overviews } from '../data/overviews-data.js';
 
 //načtení ID z článku pomocí js-article-id
 let articleId='';
+
 document.querySelectorAll('.js-article-id')
   .forEach((clanek) => {
     articleId = clanek.dataset.articleId;
@@ -11,16 +12,19 @@ console.log(`ID is: ${articleId}`);
 
 
 //určení indexu aktuálně otevřeného článku pomocí ID prohledání dat overviews
-export let currentArticle;
+let currentArticle;
+let currentArticleData;
 
 overviews.forEach((article, index) => {
   if(article.articleId === articleId){
     currentArticle = index;
+    currentArticleData = article;
     console.log('currentArticle ' + currentArticle)
   }
 });
 
-
+//přiřazení "alt" k úvodnímu obrázku 
+document.querySelector('.article-top-picture').alt=currentArticleData.pictureAlt;
 
 //zjištění indexů, které nejsou intermezzo
 let overviewsNonIntermezzo = [];
@@ -89,3 +93,4 @@ if(currentArticle === overviewsNonIntermezzo[0]){
   </a>
   `;
 }
+

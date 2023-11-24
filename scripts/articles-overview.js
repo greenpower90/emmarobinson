@@ -27,7 +27,10 @@ overviews.forEach((articleOverview) => {
         </div>
       </div>
       <a href="${articleOverview.articleLink}">
-        <img class="overview-picture" src="${articleOverview.picture}">
+        <img class="overview-picture" 
+        src="${articleOverview.picture}"
+        alt="${articleOverview.pictureAlt}"
+        >
       </a>
 
       <a href="${articleOverview.articleLink}" >
