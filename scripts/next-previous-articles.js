@@ -12,7 +12,7 @@ console.log(`ID is: ${articleId}`);
 
 
 //určení indexu aktuálně otevřeného článku pomocí ID prohledání dat overviews
-let currentArticle;
+export let currentArticle;
 let currentArticleData;
 
 overviews.forEach((article, index) => {
@@ -93,4 +93,3 @@ if(currentArticle === overviewsNonIntermezzo[0]){
   </a>
   `;
 }
-
