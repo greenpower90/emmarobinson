@@ -39,7 +39,7 @@ export function loadRandomMainPicture(){
   console.log(`náhodné číslo na výběr fotky ${randomImageIndex}`);
   console.log(`zdroj fotky na náhodném indexu: ${images[randomImageIndex].src}`)
   
-  document.getElementsByTagName('mainpicture')[0].style.backgroundImage = `url(${images[randomImageIndex].src})`;
-  document.getElementsByTagName('mainpicture')[0].style.backgroundRepeat = "no-repeat";
-  document.getElementsByTagName('mainpicture')[0].style.backgroundSize = "100%";
+  document.getElementsByTagName('main-picture')[0].style.backgroundImage = `url(${images[randomImageIndex].src})`;
+  document.getElementsByTagName('main-picture')[0].style.backgroundRepeat = "no-repeat";
+  document.getElementsByTagName('main-picture')[0].style.backgroundSize = "100%";
 };
