@@ -15,11 +15,6 @@ export const quotes =
 
   quote: `"Když je v sázce lidská bytost, tak člověk musí být trpělivý a ochotný se ještě učit, protože stát se může cokoliv. Navíc, když je ve hře ještě láska."`,
   writer: `(Tracyho tygr - William Saroyan)`
-  }, 
-  {
-
-  quote: `"Když je v sázce lidská bytost, tak člověk musí být trpělivý a ochotný se ještě učit, protože stát se může cokoliv. Navíc, když je ve hře ještě láska."`,
-  writer: `(Tracyho tygr - William Saroyan)`
   },
   {
 
