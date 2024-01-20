@@ -28,7 +28,7 @@ function feedIntermezzoHTML(articleOverview){
 }
 
 
-function feedArticleOverviewHTML(articleOverview){
+export function feedArticleOverviewHTML(articleOverview){
    let articleOverviewHTML = `
     <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
 
