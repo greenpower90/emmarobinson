@@ -1,27 +1,28 @@
 import { overviews } from '../data/overviews-data.js';
 
 //načtení ID z článku pomocí js-article-id
-let articleId='';
+let currentArticleId = document.querySelector('.js-article-id').dataset.articleId
 
-document.querySelectorAll('.js-article-id')
-  .forEach((clanek) => {
-    articleId = clanek.dataset.articleId;
-  });
-
-console.log(`ID is: ${articleId}`);
+console.log(`ID is: ${currentArticleId}`)
 
 
 //určení indexu aktuálně otevřeného článku pomocí ID prohledání dat overviews
-export let currentArticle;
-let currentArticleData;
+export let currentArticleIndex
+let currentArticleData
 
-overviews.forEach((article, index) => {
-  if(article.articleId === articleId){
-    currentArticle = index;
-    currentArticleData = article;
-    console.log('currentArticle ' + currentArticle)
-  }
-});
+console.log(currentArticleData)
+
+  let articleIndex
+  let articleData
+  overviews.forEach((article, index) => {
+    if(article.articleId === currentArticleId){
+      currentArticleIndex = index
+      currentArticleData = article
+      //console.log('currentArticle ' + articleIndex)
+      //console.log(articleData)
+    }
+  })
+
 
 //přiřazení "alt" k úvodnímu obrázku 
 document.querySelector('.article-top-picture').alt=currentArticleData.pictureAlt;
@@ -39,16 +40,13 @@ overviews.forEach((article, index) => {
 console.log(`články bez intermezzo: ${overviewsNonIntermezzo}`);
 
 
-
-
-
 //Přiřazení indexů pro následující a předchozí článek pomocí overviewsNonIntermezzo pro přeskočení intermezzo, který vlastní kartu nemají
 
 let nextArticleLinkIndex;
-let previousArticleLinkIndex ;
+let previousArticleLinkIndex;
 
 overviewsNonIntermezzo.forEach((array, index) => {
-  if(array === currentArticle){
+  if(array === currentArticleIndex){
     nextArticleLinkIndex = overviewsNonIntermezzo[index-1];
     previousArticleLinkIndex = overviewsNonIntermezzo[index+1];
     console.log(`nextIndex ${nextArticleLinkIndex}`);
@@ -58,12 +56,11 @@ overviewsNonIntermezzo.forEach((array, index) => {
 })
 
 
-
 //vytvoření a zobrazení linků na další a předchozí článek
-console.log('currentArticle ' + currentArticle);
+console.log('currentArticle ' + currentArticleIndex);
 console.log((overviewsNonIntermezzo[overviewsNonIntermezzo.length -1]));
 
-if(currentArticle === (overviewsNonIntermezzo[overviewsNonIntermezzo.length -1])){
+if(currentArticleIndex === (overviewsNonIntermezzo[overviewsNonIntermezzo.length -1])){
   document.querySelector('.js-previous-article')
   .innerHTML = '';
   console.log('end of array')
@@ -75,11 +72,11 @@ if(currentArticle === (overviewsNonIntermezzo[overviewsNonIntermezzo.length -1])
     
     <p>${overviews[previousArticleLinkIndex].title}</p>
   </a>
-  `;
+  `
 }
 
 
-if(currentArticle === overviewsNonIntermezzo[0]){
+if(currentArticleIndex === overviewsNonIntermezzo[0]){
   document.querySelector('.js-next-article')
   .innerHTML = '';
 }else{
@@ -91,5 +88,5 @@ if(currentArticle === overviewsNonIntermezzo[0]){
     <p>${overviews[nextArticleLinkIndex].title}</p>
   
   </a>
-  `;
+  `
 }
