@@ -1,11 +1,22 @@
 import { overviews } from '../data/overviews-data.js';
 
-let HTMLelement = '';
-//let showMoreElement = 1;
-overviews.forEach((articleOverview) => {
 
-  if(articleOverview.type === 'intermezzo'){
-    HTMLelement += `
+function feedOverviewsHTML(overviews){
+  let HTMLelement = '';
+  overviews.forEach((articleOverview) => {
+    if(articleOverview.type === 'intermezzo'){
+      HTMLelement += feedIntermezzoHTML(articleOverview)
+    }
+    else{
+      HTMLelement += feedArticleOverviewHTML(articleOverview)
+    }
+  })
+  return HTMLelement
+}
+
+
+function feedIntermezzoHTML(articleOverview){
+  let intermezzoHTML = `
   <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
     <div class="article-title">${articleOverview.title}</div>
     <div class="article-overview">
@@ -13,9 +24,12 @@ overviews.forEach((articleOverview) => {
     </div>
   </div>
   `
-  }
-  else{
-    HTMLelement += `
+  return intermezzoHTML
+}
+
+
+function feedArticleOverviewHTML(articleOverview){
+   let articleOverviewHTML = `
     <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
 
       <div class="article-container-top">
@@ -51,15 +65,9 @@ overviews.forEach((articleOverview) => {
 
     </div>
     ` 
-
-  }
-
-
-  
-})
-
-//console.log(HTMLelement);
+    return articleOverviewHTML
+}
 
 document.querySelector('.js-articles-bottom-left-grid')
-  .innerHTML = HTMLelement;
+  .innerHTML = feedOverviewsHTML(overviews)
   
