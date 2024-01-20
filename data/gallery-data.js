@@ -1,4 +1,5 @@
-export const gallery = [{
+export const gallery = [
+{
   id:'gal-01',
   alt: 'Jakub a asistentka - podávání jídla',
   fileLocation:{
