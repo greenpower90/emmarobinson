@@ -2,26 +2,21 @@ import { overviews } from '../data/overviews-data.js';
 
 //načtení ID z článku pomocí js-article-id
 let currentArticleId = document.querySelector('.js-article-id').dataset.articleId
-
-console.log(`ID is: ${currentArticleId}`)
+//console.log(`ID is: ${currentArticleId}`)
 
 
 //určení indexu aktuálně otevřeného článku pomocí ID prohledání dat overviews
 export let currentArticleIndex
 let currentArticleData
 
-console.log(currentArticleData)
-
-  let articleIndex
-  let articleData
-  overviews.forEach((article, index) => {
-    if(article.articleId === currentArticleId){
-      currentArticleIndex = index
-      currentArticleData = article
-      //console.log('currentArticle ' + articleIndex)
-      //console.log(articleData)
-    }
-  })
+overviews.forEach((article, index) => {
+  if(article.articleId === currentArticleId){
+    currentArticleIndex = index
+    currentArticleData = article
+    //console.log('currentArticleIndex ' + currentArticleIndex)
+    //console.log(currentArticleData)
+  }
+})
 
 
 //přiřazení "alt" k úvodnímu obrázku 
@@ -36,11 +31,11 @@ overviews.forEach((article, index) => {
     overviewsNonIntermezzo.push(index);
   }
 
-});
-console.log(`články bez intermezzo: ${overviewsNonIntermezzo}`);
+})
+console.log(`články bez intermezzo: ${overviewsNonIntermezzo}`)
 
 
-//Přiřazení indexů pro následující a předchozí článek pomocí overviewsNonIntermezzo pro přeskočení intermezzo, který vlastní kartu nemají
+  //Přiřazení indexů pro následující a předchozí článek pomocí overviewsNonIntermezzo pro přeskočení intermezzo, který vlastní kartu nemají
 
 let nextArticleLinkIndex;
 let previousArticleLinkIndex;
@@ -57,12 +52,12 @@ overviewsNonIntermezzo.forEach((array, index) => {
 
 
 //vytvoření a zobrazení linků na další a předchozí článek
-console.log('currentArticle ' + currentArticleIndex);
-console.log((overviewsNonIntermezzo[overviewsNonIntermezzo.length -1]));
+console.log('currentArticle ' + currentArticleIndex)
+console.log((overviewsNonIntermezzo[overviewsNonIntermezzo.length -1]))
 
 if(currentArticleIndex === (overviewsNonIntermezzo[overviewsNonIntermezzo.length -1])){
   document.querySelector('.js-previous-article')
-  .innerHTML = '';
+  .innerHTML = ''
   console.log('end of array')
 }else{
   document.querySelector('.js-previous-article')
@@ -78,7 +73,7 @@ if(currentArticleIndex === (overviewsNonIntermezzo[overviewsNonIntermezzo.length
 
 if(currentArticleIndex === overviewsNonIntermezzo[0]){
   document.querySelector('.js-next-article')
-  .innerHTML = '';
+  .innerHTML = ''
 }else{
   document.querySelector('.js-next-article')
   .innerHTML = `

@@ -62,7 +62,7 @@
 }
 
 .next-article-div{
-  text-align: left;
+  text-align: right;
 }
 
 .next-previous-article-text{
@@ -72,7 +72,7 @@
 }
 
 .previous-article-div{
-  text-align: right;
+  text-align: left;
 }
 
 .next-article, .previous-article{

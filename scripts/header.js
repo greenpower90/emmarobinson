@@ -2,10 +2,7 @@ import { overviews } from '../data/overviews-data.js';
 import { currentArticleIndex } from './next-previous-articles.js';
 
 
-let headerElement = '';
-//let articleTitle = document.querySelector('.js-title').innerHTML;
-
-headerElement += `
+let headerElement = `
       <div class="header-container" >
         <div class="header-part">
           <a href="../index.html">
@@ -35,11 +32,7 @@ headerElement += `
       </div>
       `
 
-if(headerElement === ''){
-  
-}else {document.querySelector('.header').innerHTML = headerElement;
-
-}
+document.querySelector('.header').innerHTML = headerElement
 
 console.log(overviews[currentArticleIndex].date);
 document.querySelector('.js-date-of-article')
