@@ -37,11 +37,12 @@ console.log(`články bez intermezzo: ${overviewsNonIntermezzo}`)
 
   //Přiřazení indexů pro následující a předchozí článek pomocí overviewsNonIntermezzo pro přeskočení intermezzo, který vlastní kartu nemají
 
-let nextArticleLinkIndex;
-let previousArticleLinkIndex;
+let nextArticleLinkIndex
+let previousArticleLinkIndex
 
 overviewsNonIntermezzo.forEach((array, index) => {
   if(array === currentArticleIndex){
+    console.log('array: '+ array)
     nextArticleLinkIndex = overviewsNonIntermezzo[index-1];
     previousArticleLinkIndex = overviewsNonIntermezzo[index+1];
     console.log(`nextIndex ${nextArticleLinkIndex}`);
@@ -50,6 +51,8 @@ overviewsNonIntermezzo.forEach((array, index) => {
   }
 })
 
+console.log(`nextIndex ${nextArticleLinkIndex}`)
+console.log(`previoustIndex ${previousArticleLinkIndex}`)
 
 //vytvoření a zobrazení linků na další a předchozí článek
 console.log('currentArticle ' + currentArticleIndex)
