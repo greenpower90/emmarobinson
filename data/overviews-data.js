@@ -19,7 +19,7 @@ export const overviews = [
   type: 'intermezzo',
   dimension: '  ',
   cathegory: {
-    name: '',
+    name: 'intermezzo',
     link: '',
     id: ''
     },
@@ -80,7 +80,7 @@ export const overviews = [
   type: 'intermezzo',
   dimension: ' small ',
   cathegory: {
-    name: '',
+    name: 'intermezzo',
     link: ''
     },
   date: '',
@@ -235,7 +235,7 @@ export const overviews = [
   type: 'intermezzo',
   dimension: ' small ',
   cathegory: {
-    name: '',
+    name: 'intermezzo',
     link: ''
     },
   date: '',
@@ -313,3 +313,11 @@ export const overviews = [
 }*/
 ];
 
+export const nonIntermezzoOverviews = overviews.filter((overview) => {
+  if (overview.cathegory.name != "intermezzo"){
+    return overview
+  }
+})
+
+console.log('nonIntermezzo new method')
+console.log(nonIntermezzoOverviews)

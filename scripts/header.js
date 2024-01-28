@@ -1,5 +1,4 @@
-import { overviews } from '../data/overviews-data.js';
-import { currentArticleIndex } from './next-previous-articles.js';
+import { currentArticleData } from './next-previous-articles.js'
 
 
 let headerElement = `
@@ -14,17 +13,17 @@ let headerElement = `
           <div class="header-home-container" style="width: 15px;"><img style="width: 100%; padding-left: 5px; padding-right: 5px;" src="/icons/shark.png" ></div>
         </div>
         <div class="header-part">
-          <a href="../${overviews[currentArticleIndex].cathegory.link}">
+          <a href="../${currentArticleData.cathegory.link}">
             <div class="header-home-container">  
-              <p>${overviews[currentArticleIndex].cathegory.name}</p>
+              <p>${currentArticleData.cathegory.name}</p>
             </div>
           </a>
           <div class="header-home-container" style="width: 15px;"><img style="width: 100%;padding-left: 5px;" src="/icons/shark.png" ></div>
         </div>
         <div class="header-part">
-          <a href="../${overviews[currentArticleIndex].articleLink}">
+          <a href="../${currentArticleData.articleLink}">
             <div class="header-home-container"> 
-              <p>${overviews[currentArticleIndex].title}</p>
+              <p>${currentArticleData.title}</p>
             </div>
           </a>
         </div>         
@@ -33,10 +32,3 @@ let headerElement = `
       `
 
 document.querySelector('.header').innerHTML = headerElement
-
-console.log(overviews[currentArticleIndex].date);
-document.querySelector('.js-date-of-article')
-  .innerHTML = overviews[currentArticleIndex].date;
-
-document.title = overviews[currentArticleIndex].title;
-
