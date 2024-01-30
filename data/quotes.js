@@ -70,28 +70,22 @@ export const quotes =
 
 
 export function nextQuote(randomQuoteIndex, quote, writer){
-  //btnn.addEventListener("click", function() {
-   // let btnn = document.querySelector("#Nbtn")
-    
     randomQuoteIndex = randomQuoteIndex + 1;
     randomQuoteIndex = randomQuoteIndex % quotes.length;
     quote.innerHTML = quotes[randomQuoteIndex].quote;
     writer.innerHTML = quotes[randomQuoteIndex].writer;
     quote.innerHTML = quotes[randomQuoteIndex].quote;
     writer.innerHTML = quotes[randomQuoteIndex].writer;
-    console.log(`citát č. ${randomQuoteIndex}`)
- // })
-};
+    //console.log(`citát č. ${randomQuoteIndex}`)
+
+}
 
 export function previousQuote(randomQuoteIndex, quote, writer){
-  //btnn.addEventListener("click", function() {
-   // let btnp = document.querySelector("#Pbtn")
-    
     randomQuoteIndex = randomQuoteIndex - 1;
     randomQuoteIndex = randomQuoteIndex % quotes.length;
     quote.innerHTML = quotes[randomQuoteIndex].quote;
     writer.innerHTML = quotes[randomQuoteIndex].writer;
-    console.log(`citát č. ${randomQuoteIndex}`);
+    //console.log(`citát č. ${randomQuoteIndex}`);
     if (randomQuoteIndex === 0) { // i would become 0
       randomQuoteIndex = quotes.length; // so put it at the other end of the array
     }
