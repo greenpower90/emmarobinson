@@ -16,11 +16,13 @@ function feedOverviewsHTML(overviews){
 
 
 function feedIntermezzoHTML(articleOverview){
+  const { dimension, title, text } = articleOverview
+
   let intermezzoHTML = `
-  <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
-    <div class="article-title">${articleOverview.title}</div>
+  <div class="article-container ${dimension}${articleOverview.class}">
+    <div class="article-title">${title}</div>
     <div class="article-overview">
-      ${articleOverview.text}
+      ${text}
     </div>
   </div>
   `
@@ -29,43 +31,45 @@ function feedIntermezzoHTML(articleOverview){
 
 
 export function feedArticleOverviewHTML(articleOverview){
-   let articleOverviewHTML = `
-    <div class="article-container ${articleOverview.dimension}${articleOverview.class}">
+  const { dimension, cathegory, date, articleLink, picture, pictureAlt, title, text, readMore} = articleOverview
+  let articleOverviewHTML = `
+  <div class="article-container ${dimension}${articleOverview.class}">
 
-      <div class="article-container-top">
-        <a href="${articleOverview.cathegory.link}">
-          <div class="category">${articleOverview.cathegory.name}</div>
-        </a>
-        <div class="author-and-date-container">
-          <div class="date-of-article">${articleOverview.date}</div>
-        </div>
+    <div class="article-container-top">
+      <a href="${cathegory.link}">
+        <div class="category">${cathegory.name}</div>
+      </a>
+      <div class="author-and-date-container">
+        <div class="date-of-article">${date}</div>
       </div>
-      <a href="${articleOverview.articleLink}">
-        <img class="overview-picture" 
-        src="${articleOverview.picture}"
-        alt="${articleOverview.pictureAlt}"
-        >
-      </a>
-
-      <a href="${articleOverview.articleLink}" >
-        <div class="article-title">${articleOverview.title}</div>
-      </a>
-
-      <a class="article-overview"  href="${articleOverview.articleLink}">
-        <div class="article-overview cursor-pointer">
-          ${articleOverview.text}
-        </div>
-      </a>
-
-      <div class="continue-reading-container">
-        <a href="${articleOverview.articleLink}" >
-          <div class="continue-reading-link">${articleOverview.readMore}</div>
-        </a>
-      </div>
-
     </div>
-    ` 
-    return articleOverviewHTML
+
+    <a href="${articleLink}">
+      <img class="overview-picture" 
+      src="${picture}"
+      alt="${pictureAlt}"
+      >
+    </a>
+
+    <a href="${articleLink}" >
+      <div class="article-title">${title}</div>
+    </a>
+
+    <a class="article-overview"  href="${articleLink}">
+      <div class="article-overview cursor-pointer">
+        ${text}
+      </div>
+    </a>
+
+    <div class="continue-reading-container">
+      <a href="${articleLink}" >
+        <div class="continue-reading-link">${readMore}</div>
+      </a>
+    </div>
+
+  </div>
+  ` 
+  return articleOverviewHTML
 }
 
 document.querySelector('.js-articles-bottom-left-grid')
