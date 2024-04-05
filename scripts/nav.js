@@ -16,12 +16,27 @@ document.body.appendChild(hamburgerMenu)
 
 hamburgerMenu.innerHTML = `<img id="hamburger-icon" src="../icons/hamburger-icon.png">`
     
+let popUpMenuOn = false
+
+fetch('../utils/nav.html')
+        .then(res => res.text())
+        .then(text => {
+            let popUpNav = document.createElement("div");
+            popUpNav.setAttribute("id", "menu-pop-up")
+            document.body.appendChild(popUpNav)
+            //newElem.setAttribute("id", "nav")
+            popUpNav.innerHTML = text;
+                       
+        })
 
 hamburgerMenu.addEventListener("click", ()=>{
-    
-    const navEl = document.getElementById("nav")
-    navEl.scrollIntoView({
-            behavior: 'smooth'
-   })
-    console.log("clicked")
+    const popUpNavEl = document.getElementById("menu-pop-up")
+    if (!popUpMenuOn){
+        popUpNavEl.style.display = "flex"
+        popUpMenuOn = !popUpMenuOn
+    }
+    else{
+        popUpNavEl.style.display = "none"
+        popUpMenuOn = !popUpMenuOn
+    }
 })
