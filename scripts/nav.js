@@ -7,7 +7,10 @@ fetch('../utils/nav.html')
     newElem.setAttribute("id", "nav")
     newElem.innerHTML = text;
     oldElem.parentNode.replaceChild(newElem,oldElem);
-    
+    let popUpNav = document.createElement("div");
+    popUpNav.setAttribute("id", "menu-pop-up")
+    document.body.appendChild(popUpNav)
+    popUpNav.innerHTML = text;
 })
 
 let hamburgerMenu = document.createElement("div")
@@ -18,25 +21,20 @@ hamburgerMenu.innerHTML = `<img id="hamburger-icon" src="../icons/hamburger-icon
     
 let popUpMenuOn = false
 
-fetch('../utils/nav.html')
-        .then(res => res.text())
-        .then(text => {
-            let popUpNav = document.createElement("div");
-            popUpNav.setAttribute("id", "menu-pop-up")
-            document.body.appendChild(popUpNav)
-            //newElem.setAttribute("id", "nav")
-            popUpNav.innerHTML = text;
-                       
-        })
-
 hamburgerMenu.addEventListener("click", ()=>{
     const popUpNavEl = document.getElementById("menu-pop-up")
     if (!popUpMenuOn){
-        popUpNavEl.style.display = "flex"
+        //popUpNavEl.style.display = "flex"
+        popUpNavEl.style.visibility = "visible"
+        popUpNavEl.style.transition = "all 0.5s"
+        popUpNavEl.style.opacity = "1"
+        
         popUpMenuOn = !popUpMenuOn
     }
     else{
-        popUpNavEl.style.display = "none"
+        popUpNavEl.style.visibility = "hidden"
         popUpMenuOn = !popUpMenuOn
+        popUpNavEl.style.opacity = "0"
+        //popUpNavEl.style.display = "none"
     }
 })
