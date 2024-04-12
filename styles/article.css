@@ -90,27 +90,23 @@
     grid-template-columns: 1fr;
     row-gap: 30px;
   }
-}
-
-@media (max-width:700px){
   .picture-grid-typ-three{
     grid-template-columns: 1fr;
     row-gap: 10px;
   }
-}
-
+  .article-part{
+    padding: 0.5em;
+  }
   .picture-grid-typ-two{
-  display:grid;
-  grid-template-columns: 1fr 1fr; 
-  column-gap: 10px; 
-  margin-bottom: 10px;
-  row-gap: 20px;
-}
-
-@media (max-width:700px){
-.picture-grid-typ-two{
- grid-template-columns: 1fr;
- row-gap: 10px;
-}
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 10px; 
+    margin-bottom: 10px;
+    row-gap: 20px;
+  }
+  .picture-grid-typ-two{
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+   }
 }
 
