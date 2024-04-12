@@ -1,16 +1,15 @@
 import { overviews } from '../data/overviews-data.js';
-import { feedArticleOverviewHTML } from './articles-overview.js'
+import { feedArticleOverviewHTML } from './tools.js';
 
 let vyletyHTMLelement = ''
 
 overviews.forEach((articleOverview, index) => {
     if(articleOverview.cathegory.id === 'vylety'){
       vyletyHTMLelement += feedArticleOverviewHTML(articleOverview)
-    } else{return}
-    
+    } else {return}  
 })
 
-console.log(vyletyHTMLelement);
+//console.log(vyletyHTMLelement);
 
 document.querySelector('.js-articles-bottom-left-grid')
   .innerHTML = vyletyHTMLelement

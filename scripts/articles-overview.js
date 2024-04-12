@@ -1,6 +1,28 @@
 import { overviews } from '../data/overviews-data.js';
+import { feedIntermezzoHTML } from './tools.js';
+import { feedArticleOverviewHTML } from './tools.js';
+
+//start - code for showing articles content after scroll to y=500
+const showContent = document.querySelector(".bottom-part-main-grid")
+let showGrid = false
+
+window.addEventListener("scroll", ()=>{
+  if(!showGrid){
+    if(window.scrollY > 500){
+      showGrid = true
+      showContent.style.opacity = "1"
+    }
+  }
+  else if(window.scrollY < 500){
+    showGrid = false
+    showContent.style.opacity = "0"
+  }
+})
+//end of section
 
 
+
+//start - code for creating HTML for all articles
 function feedOverviewsHTML(overviews){
   let HTMLelement = '';
   overviews.forEach((articleOverview) => {
@@ -14,64 +36,6 @@ function feedOverviewsHTML(overviews){
   return HTMLelement
 }
 
-
-function feedIntermezzoHTML(articleOverview){
-  const { dimension, title, text } = articleOverview
-
-  let intermezzoHTML = `
-  <div class="article-container ${dimension}${articleOverview.class}">
-    <div class="article-title">${title}</div>
-    <div class="article-overview">
-      ${text}
-    </div>
-  </div>
-  `
-  return intermezzoHTML
-}
-
-
-export function feedArticleOverviewHTML(articleOverview){
-  const { dimension, cathegory, date, articleLink, picture, pictureAlt, title, text, readMore} = articleOverview
-  let articleOverviewHTML = `
-  <div class="article-container ${dimension}${articleOverview.class}">
-
-    <div class="article-container-top">
-      <a href="${cathegory.link}">
-        <div class="category">${cathegory.name}</div>
-      </a>
-      <div class="author-and-date-container">
-        <div class="date-of-article">${date}</div>
-      </div>
-    </div>
-
-    <a href="${articleLink}">
-      <img class="overview-picture" 
-      src="${picture}"
-      alt="${pictureAlt}"
-      >
-    </a>
-
-    <a href="${articleLink}" >
-      <div class="article-title">${title}</div>
-    </a>
-
-    <a class="article-overview"  href="${articleLink}">
-      <div class="article-overview cursor-pointer">
-        ${text}
-      </div>
-    </a>
-
-    <div class="continue-reading-container">
-      <a href="${articleLink}" >
-        <div class="continue-reading-link">${readMore}</div>
-      </a>
-    </div>
-
-  </div>
-  ` 
-  return articleOverviewHTML
-}
-
 document.querySelector('.js-articles-bottom-left-grid')
   .innerHTML = feedOverviewsHTML(overviews)
-  
+//end

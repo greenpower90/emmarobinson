@@ -293,9 +293,6 @@ a, a:hover, a:active, a:visited, a:focus {
   .cathegory-all-articles-grid{
     grid-template-columns: 1fr;
   }
-  body{
-    padding-top: 30vh;
-  }
 }
 
 @media (max-width:700px){
