@@ -1,5 +1,5 @@
 import { overviews } from '../data/overviews-data.js';
-import { feedArticleOverviewHTML } from './articles-overview.js'
+import { feedArticleOverviewHTML } from './tools.js';
 
 let vzkazyHTMLelement = ''
 
