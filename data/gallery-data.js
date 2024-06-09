@@ -300,6 +300,189 @@ export const gallery = [
     spanRow:'',
     spanCollumn: ''
   },
-}]
+}];
+
+
+export const galleryJanaPlavec = [
+  {
+    id:'gal-jp-001',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-001small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-001full.JPG',
+    },
+    dimension: {
+      spanRow:'picture-height-middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-002',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-002small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-002full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-003',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-003small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-003full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-004',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-004small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-004full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-005',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-005small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-005full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-006',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-006small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-006full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-007',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-007small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-007full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-008',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-008small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-008full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-009',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-009small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-009full.JPG',
+    },
+    dimension: {
+      spanRow:'picture-height-middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-010',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-010small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-010full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-011',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-011small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-011full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-012',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-012small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-012full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-013',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-013small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-013full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-014',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-014small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-014full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: 'picture-wide'
+    },
+  },{
+    id:'gal-jp-015',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-015small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-015full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-jp-016',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-016small.JPG',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-016full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: 'picture-wide'
+    },
+  }
+
+]
+  
 
 
