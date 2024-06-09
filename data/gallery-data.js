@@ -341,8 +341,8 @@ export const galleryJanaPlavec = [
     id:'gal-jp-004',
     alt: '',
     fileLocation:{
-      small:'../gallery/pohledem_jany_plavec/gal-jp-img-004small.JPG',
-      full:'../gallery/pohledem_jany_plavec/gal-jp-img-004full.JPG',
+      small:'../gallery/pohledem_jany_plavec/gal-jp-img-004small.jpg',
+      full:'../gallery/pohledem_jany_plavec/gal-jp-img-004full.jpg',
     },
     dimension: {
       spanRow:'',
