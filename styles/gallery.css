@@ -1,3 +1,24 @@
+#main-gallery-grid{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+}
+
+.gallery-item{
+  max-width: 500px;
+}
+
+.gallery-item img{
+  max-width: 100%;
+}
+
+.gallery-item h3{
+  text-align: center;
+}
+
+
 .gallery-grid{
   padding: 30px;  
   display:grid; 
@@ -31,5 +52,13 @@
   }
   .picture-height-tall{
     grid-row: span 2;
+  }
+}
+
+@media (min-width:900px){
+  #main-gallery-grid{
+    flex-direction:row;
+    column-gap: 2em;
+    justify-content: center;
   }
 }
