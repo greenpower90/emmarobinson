@@ -14,8 +14,8 @@ export const gallery = [
   id:'gal-02',
   alt: 'chorvatsko - Jakub s asistentkou',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-002small.png',
-    full:'../gallery/pictures/gal-igm-002full.png',
+    small:'../gallery/pictures/gal-igm-002small.jpg',
+    full:'../gallery/pictures/gal-igm-002full.jpg',
   },
   dimension: {
     spanRow:'',
@@ -260,8 +260,8 @@ export const gallery = [
   id:'gal-26',
   alt: 'asistent kartičky ano ne',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-028small.PNG',
-    full:'../gallery/pictures/gal-igm-028full.PNG',
+    small:'../gallery/pictures/gal-igm-028small.jpg',
+    full:'../gallery/pictures/gal-igm-028full.jpg',
   },
   dimension: {
     spanRow:'',
@@ -271,8 +271,8 @@ export const gallery = [
   id:'gal-27',
   alt: 'počítač ovládaný očima',
   fileLocation:{
-    small:'../gallery/pictures/gal-igm-029small.PNG',
-    full:'../gallery/pictures/gal-igm-029full.PNG',
+    small:'../gallery/pictures/gal-igm-029small.jpg',
+    full:'../gallery/pictures/gal-igm-029full.jpg',
   },
   dimension: {
     spanRow:'',
@@ -295,6 +295,50 @@ export const gallery = [
   fileLocation:{
     small:'../gallery/pictures/gal-igm-031small.jpg',
     full:'../gallery/pictures/gal-igm-031full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'gal-32',
+  alt: 'Jakub s asistentem na speciálním kole. V pozadí strom a louka',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-032small.jpg',
+    full:'../gallery/pictures/gal-igm-032full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'gal-33',
+  alt: 'Jakub na elektrickém vozíku s asistentkou. Oba jsou v nákupním centru.',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-033small.jpg',
+    full:'../gallery/pictures/gal-igm-033full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: 'picture-wide'
+  },
+},{
+  id:'gal-34',
+  alt: 'Jakub na mechanickém vozíku, tlačen asistentem. Vycházejí z budovy',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-034small.jpg',
+    full:'../gallery/pictures/gal-igm-034full.jpg',
+  },
+  dimension: {
+    spanRow:'',
+    spanCollumn: ''
+  },
+},{
+  id:'gal-35',
+  alt: 'Asistentka používá s Jakubem iPad, na displaji iPadu je animovaná postavička',
+  fileLocation:{
+    small:'../gallery/pictures/gal-igm-035small.jpg',
+    full:'../gallery/pictures/gal-igm-035full.jpg',
   },
   dimension: {
     spanRow:'',
