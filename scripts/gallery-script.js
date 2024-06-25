@@ -59,6 +59,22 @@ export function galleryPicturesManipulation(pictures, galleryData){//akce po kli
         showPictureElement.src = galleryData[index].fileLocation.full;
         };
       });
+
+      // document.addEventListener("keydown", (e)=>{ 
+      //   if (e.key === "n"){
+      //     if(index === pictures.length -1){
+      //       index = 0;
+      //       console.log(index);
+      //       showPictureElement.src = galleryData[index].fileLocation.full;
+      //     }
+      //     else{ 
+      //     index++;
+      //     console.log(index);
+      //     showPictureElement.src = galleryData[index].fileLocation.full;
+      //     };
+      //   }
+      // })
+
   
       let previousButtonElement = document.querySelector('.js-previous-button');
       previousButtonElement.addEventListener('click', () => {
@@ -82,8 +98,8 @@ export function galleryPicturesManipulation(pictures, galleryData){//akce po kli
         index = resetIndex;
       });
       // function to hide the image when we click on cross button
-    });
-  });
+    })
+  })
 }
 
 //galleryGridElement.innerHTML = feedGallery(gallery)
