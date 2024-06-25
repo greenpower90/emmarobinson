@@ -24,10 +24,11 @@ export function feedGallery(galleryArray){
 
 export function galleryPicturesManipulation(pictures, galleryData){//akce po kliknutí na obrázek-pozadi, zobrazeni fotky, manipulacni tlacitka next previous a close
   pictures.forEach((picture, index) => {
-  
+    
     picture.addEventListener('click', () => {
       let resetIndex = index;
-  
+
+      console.log(`reset index: ${resetIndex}`)
       console.log(`index z řady fotek .js-picture ${index}`)
       
       //po kliknutí na jakoukoliv fotku se vytvoří tmavé pozadí přes celou stránku
@@ -38,24 +39,26 @@ export function galleryPicturesManipulation(pictures, galleryData){//akce po kli
       <span class="close-button js-close-button">×</span>
       <span class="picture-next-button js-next-button"><img style="width: 40px" src="../icons/next.ico"></span>
       <span class="picture-previous-button js-previous-button"><img style="width: 40px" src="../icons/previous.ico"></span>
-      <img src="${picture.dataset.fullPicture}" alt="Popup Image" id="popupImage">
+      <img src="${galleryData[index].fileLocation.full}" alt="Popup Image" id="popupImage">
       `;
-  
+
       //a zobrazí se příslušná fotka
       let showPictureElement = document.getElementById("popupImage");
       //showPictureElement.src = picture.src
       //showPictureElement.src = gallery[index].fileLocation.full;
-  
+
       let nextButtonElement = document.querySelector('.js-next-button');
       nextButtonElement.addEventListener('click', () => {
         if(index === pictures.length -1){
           index = 0;
-          console.log(index);
+          console.log(`reset index: ${resetIndex}`)
+          console.log(`index z řady fotek .js-picture ${index}`)
           showPictureElement.src = galleryData[index].fileLocation.full;
         }
         else{ 
         index++;
-        console.log(index);
+        console.log(`reset index: ${resetIndex}`)
+        console.log(`index z řady fotek .js-picture ${index}`)
         showPictureElement.src = galleryData[index].fileLocation.full;
         };
       });
@@ -96,9 +99,14 @@ export function galleryPicturesManipulation(pictures, galleryData){//akce po kli
         imagePopup.style.display = "none";
         document.body.style.overflow = "auto";
         index = resetIndex;
+        console.log(`reset index: ${resetIndex}`)
+        console.log(`index z řady fotek .js-picture ${index}`)
       });
       // function to hide the image when we click on cross button
     })
+
+    
+
   })
 }
 
