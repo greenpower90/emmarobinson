@@ -1,5 +1,20 @@
 export const overviews = [
 {//článek - Pane Bože jenom to ne - říjen 2023
+    articleId: 'vvl-narozeniny',
+    dimension: ' tall ',
+    cathegory: {
+      name: 'Vzkazy v láhvi',
+      link: 'vzkazy-all.html',
+      id: 'vzkazy'
+      },
+    date: 'červen 2024',
+    picture: 'pictures/narozeniny.jpeg',
+    pictureAlt:'žena a keř',
+    articleLink:'vzkazy-v-lahvi/narozeniny.html',
+    title: 'Vy budete mít brzo narozeniny, budete slavit?',
+    text: 'Je pátek. V pondělí mám pravidelnou dispenzární kontrolu, po operaci. Vstávám v šest, jedu do vojenské nemocnice na odběr krve. Cesta tunelem je rychlá, auta spěchají do práce, za mnou jede nebezpečně blízko tatra. Jo tak ta by mě na tom skútříčku opravdu sešrotovala… zrychlím v pudu sebezáchovy. Nerada, ale co už. Kontext. Co na tom, že všichni jedeme víc, než máme, že?',
+    readMore: 'Číst dále',
+},{//článek - Pane Bože jenom to ne - říjen 2023
   articleId: 'vvl-paneboze',
   dimension: ' tall ',
   cathegory: {
