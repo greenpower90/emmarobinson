@@ -14,21 +14,6 @@ export const overviews = [
     title: 'Vy budete mít brzo narozeniny, budete slavit?',
     text: 'Je pátek. V pondělí mám pravidelnou dispenzární kontrolu, po operaci. Vstávám v šest, jedu do vojenské nemocnice na odběr krve. Cesta tunelem je rychlá, auta spěchají do práce, za mnou jede nebezpečně blízko tatra. Jo tak ta by mě na tom skútříčku opravdu sešrotovala… zrychlím v pudu sebezáchovy. Nerada, ale co už. Kontext. Co na tom, že všichni jedeme víc, než máme, že?',
     readMore: 'Číst dále',
-},{//článek - Pane Bože jenom to ne - říjen 2023
-  articleId: 'vvl-paneboze',
-  dimension: ' tall ',
-  cathegory: {
-    name: 'Vzkazy v láhvi',
-    link: 'vzkazy-all.html',
-    id: 'vzkazy'
-    },
-  date: 'říjen 2023',
-  picture: 'pictures/pane-boze-jenom-to-ne/pane-boze-jenom-to-ne.jpg',
-  pictureAlt:'žena a keř',
-  articleLink:'vzkazy-v-lahvi/pane-boze-jenom-to-ne.html',
-  title: 'Pane Bože jenom to ne',
-  text: 'Prosila jsem, když jsem Tebe a Tvého syna viděla poprvé v životě v nemocničním pokoji, kde jsme spolu strávily měsíc, milá moja. Tvůj chlapeček byl roční a kousek a mému byly jen tři měsíce. Na tvém malém byly znát všechny ty mozkové operace (dohromady jich prodělal za svůj život osm) a já původním povoláním rehabilitační sestra, poprvé v životě, viděla postižené dítě.',
-  readMore: 'Číst dále',
 },{//Intermezzo - vyznání - říjen 2023
   class:' vyznani ',
   type: 'intermezzo',
@@ -58,6 +43,21 @@ export const overviews = [
     Starý známý.<br><br>
     Epileptický záchvat….`,
   readMore: '',
+},{//článek - Pane Bože jenom to ne - říjen 2023
+  articleId: 'vvl-paneboze',
+  dimension: ' tall ',
+  cathegory: {
+    name: 'Vzkazy v láhvi',
+    link: 'vzkazy-all.html',
+    id: 'vzkazy'
+    },
+  date: 'říjen 2023',
+  picture: 'pictures/pane-boze-jenom-to-ne/pane-boze-jenom-to-ne.jpg',
+  pictureAlt:'žena a keř',
+  articleLink:'vzkazy-v-lahvi/pane-boze-jenom-to-ne.html',
+  title: 'Pane Bože jenom to ne',
+  text: 'Prosila jsem, když jsem Tebe a Tvého syna viděla poprvé v životě v nemocničním pokoji, kde jsme spolu strávily měsíc, milá moja. Tvůj chlapeček byl roční a kousek a mému byly jen tři měsíce. Na tvém malém byly znát všechny ty mozkové operace (dohromady jich prodělal za svůj život osm) a já původním povoláním rehabilitační sestra, poprvé v životě, viděla postižené dítě.',
+  readMore: 'Číst dále',
 },{//článek - Hvar voní - srpen 2022
   articleId: 'tnv-hvar',
   dimension: '',
