@@ -529,4 +529,83 @@ export const galleryJanaPlavec = [
 ]
   
 
-
+export const galleryPetraKlackova = [
+  {
+    id:'gal-pk-001',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-001small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-001full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-pk-002',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-002small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-002full.JPG',
+    },
+    dimension: {
+      spanRow:'picture-height-middle',
+      spanCollumn: 'picture-wide'
+    },
+  },{
+    id:'gal-pk-003',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-003small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-003full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-pk-004',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-004small.jpg',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-004full.jpg',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-pk-005',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-005small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-005full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-pk-006',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-006small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-006full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-pk-007',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-007small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-007full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  }
+]
