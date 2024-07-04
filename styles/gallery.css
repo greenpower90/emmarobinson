@@ -1,13 +1,16 @@
-a, a:hover, a:active, a:visited, a:focus {
-  text-decoration: none;
-}
 
+/*
 body{
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+}
+*/
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
 }
 
 a > h3 {
