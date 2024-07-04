@@ -567,8 +567,8 @@ export const galleryPetraKlackova = [
     id:'gal-pk-004',
     alt: '',
     fileLocation:{
-      small:'../gallery/pohledem_petry_klackove/gal-pk-img-004small.jpg',
-      full:'../gallery/pohledem_petry_klackove/gal-pk-img-004full.jpg',
+      small:'../gallery/pohledem_petry_klackove/gal-pk-img-004small.JPG',
+      full:'../gallery/pohledem_petry_klackove/gal-pk-img-004full.JPG',
     },
     dimension: {
       spanRow:'',
