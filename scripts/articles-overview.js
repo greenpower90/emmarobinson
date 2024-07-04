@@ -8,12 +8,12 @@ let showGrid = false
 
 window.addEventListener("scroll", ()=>{
   if(!showGrid){
-    if(window.scrollY > 500){
+    if(window.scrollY > 200){
       showGrid = true
       showContent.style.opacity = "1"
     }
   }
-  else if(window.scrollY < 500){
+  else if(window.scrollY < 200){
     showGrid = false
     showContent.style.opacity = "0"
   }
