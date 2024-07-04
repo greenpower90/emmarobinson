@@ -6,8 +6,12 @@
   row-gap: 2em;
 }
 
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
+
 .gallery-item{
-  max-width: 100%;
+  max-width: 400px;
   max-height: 300px;
 }
 
