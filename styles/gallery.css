@@ -9,9 +9,7 @@ body{
 }
 */
 
-a, a:hover, a:active, a:visited, a:focus {
-  text-decoration: none;
-}
+
 
 a > h3 {
   color:rgb(55, 55, 114); 
