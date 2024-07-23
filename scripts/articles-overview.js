@@ -15,7 +15,7 @@ window.addEventListener("scroll", ()=>{
   }
   else if(window.scrollY < 50){
     showGrid = false
-    showContent.style.opacity = "0"
+    showContent.style.opacity = "0.2"
   }
 })
 //end of section
