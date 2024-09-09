@@ -1,7 +1,7 @@
 export const overviews = [
 {//článek - Pane Bože jenom to ne - říjen 2023
     articleId: 'vvl-narozeniny',
-    dimension: ' tall ',
+    dimension: '',
     cathegory: {
       name: 'Vzkazy v láhvi',
       link: 'vzkazy-all.html',
@@ -17,7 +17,7 @@ export const overviews = [
 },{//Intermezzo - vyznání - říjen 2023
   class:' vyznani ',
   type: 'intermezzo',
-  dimension: '  ',
+  dimension: ' small ',
   cathegory: {
     name: 'intermezzo',
     link: '',
