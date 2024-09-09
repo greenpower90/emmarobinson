@@ -1,7 +1,7 @@
 export const overviews = [
 {//článek - Pane Bože jenom to ne - říjen 2023
     articleId: 'vvl-narozeniny',
-    dimension: '',
+    dimension: ' ',
     cathegory: {
       name: 'Vzkazy v láhvi',
       link: 'vzkazy-all.html',
@@ -45,7 +45,7 @@ export const overviews = [
   readMore: '',
 },{//článek - Pane Bože jenom to ne - říjen 2023
   articleId: 'vvl-paneboze',
-  dimension: ' tall ',
+  dimension: '  ',
   cathegory: {
     name: 'Vzkazy v láhvi',
     link: 'vzkazy-all.html',
@@ -197,7 +197,7 @@ export const overviews = [
   readMore: 'Číst dále',
 },{//článek - Termální lázně Štúrovo
   articleId: 'tnv-laznesturovo',
-  dimension: '',
+  dimension: '  ',
   cathegory: {
     name: 'Tipy na výlety',
     link: 'tipy-vylety-all.html',
