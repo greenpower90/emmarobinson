@@ -18,6 +18,7 @@ a > h3 {
 #main-gallery-grid{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   row-gap: 2em;
@@ -37,6 +38,7 @@ a > h3 {
 
 .gallery-item{
   max-width: 400px;
+  
   max-height: 300px;
   padding: 0 5px 20px 5px;
   text-align: center;
@@ -47,7 +49,11 @@ a > h3 {
 .gallery-item >a> img{
   width: 100%;
   max-height: 250px;
-  
+}
+
+.gallery-grid-img{
+  width: 100%;
+  max-height: 250px;
 }
 
 .gallery-item h3{
