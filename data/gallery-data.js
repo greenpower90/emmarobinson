@@ -637,8 +637,8 @@ export const galleryStepanLohr = [
     id:'gal-sl-003',
     alt: '',
     fileLocation:{
-      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-003small.JPG',
-      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-003full.JPG',
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-003small.jpg',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-003full.jpg',
     },
     dimension: {
       spanRow:'',
