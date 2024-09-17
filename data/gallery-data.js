@@ -609,3 +609,194 @@ export const galleryPetraKlackova = [
     },
   }
 ]
+
+export const galleryStepanLohr = [
+  {
+    id:'gal-sl-001',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-001small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-001full.JPG',
+    },
+    dimension: {
+      spanRow:'middle-to-small',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-002',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-002small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-002full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-003',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-003small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-003full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-004',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-004small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-004full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-005',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-005small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-005full.JPG',
+    },
+    dimension: {
+      spanRow:'middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-006',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-006small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-006full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-007',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-007small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-007full.JPG',
+    },
+    dimension: {
+      spanRow:'middle',
+      spanCollumn: 'wide'
+    },
+  },{
+    id:'gal-sl-008',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-008small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-008full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-009',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-009small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-009full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-010',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-010small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-010full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-011',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-011small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-011full.JPG',
+    },
+    dimension: {
+      spanRow:'middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-012',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-012small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-012full.JPG',
+    },
+    dimension: {
+      spanRow:'middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-013',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-013small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-013full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-014',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-014small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-014full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-015',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-015small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-015full.JPG',
+    },
+    dimension: {
+      spanRow:'middle',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-016',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-016small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-016full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },{
+    id:'gal-sl-017',
+    alt: '',
+    fileLocation:{
+      small:'../gallery/pohledem_stepana_lohra/gal-sl-img-017small.JPG',
+      full:'../gallery/pohledem_stepana_lohra/gal-sl-img-017full.JPG',
+    },
+    dimension: {
+      spanRow:'',
+      spanCollumn: ''
+    },
+  },
+  ]

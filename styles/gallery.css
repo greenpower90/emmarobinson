@@ -24,6 +24,15 @@ a > h3 {
   padding: 20px;
 }
 
+.gallery-title{
+  font-size: 30px;
+}
+
+.gallery-under-title{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 
 
 .gallery-item{
@@ -77,12 +86,19 @@ a > h3 {
   grid-column: span 2;
 }
 
+.middle-to-small{
+  grid-row: span 2;
+}
+
 @media (max-width:900px){
   .gallery-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
   .picture-height-tall{
     grid-row: span 2;
+  }
+  .middle-to-small{
+    grid-row: span 1;
   }
 }
 
