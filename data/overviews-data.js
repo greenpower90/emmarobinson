@@ -1,5 +1,20 @@
 export const overviews = [
-{//článek - Pane Bože jenom to ne - říjen 2023
+{//článek - Domluvte se s Kubim - listopad 2024
+  articleId: 'vvl-domluvteseskubim',
+  dimension: ' ',
+  cathegory: {
+    name: 'Vzkazy v láhvi',
+    link: 'vzkazy-all.html',
+    id: 'vzkazy'
+    },
+  date: 'listopad 2024',
+  picture: 'pictures/domluvte-se-s-kubim/domluvte-se-s-kubim.jpg',
+  pictureAlt:'',
+  articleLink:'vzkazy-v-lahvi/domluvte-se-s-kubim.html',
+  title: 'Domluvte se s Kubim',
+  text: 'Asistence se také plánují dopředu, to nelze jinak. Ale zdravotní stav se naplánovat nedá. Doma to nevadí. Není potřeba nikam nikoho vláčet. Nemusí jíst, když nechce, někam chodit, když nechce. Kuba není z těch, co volá za každou cenu po společnosti dalších klientů, naopak. Má rád svůj klid, čím je starší, tím víc. Je v centru svého vlastního života, ve svém doma a ta služba a program tomu odpovídá.',
+  readMore: 'Číst dále',
+},{//článek - Pane Bože jenom to ne - říjen 2023
     articleId: 'vvl-narozeniny',
     dimension: ' ',
     cathegory: {
@@ -60,7 +75,7 @@ export const overviews = [
   readMore: 'Číst dále',
 },{//článek - Hvar voní - srpen 2022
   articleId: 'tnv-hvar',
-  dimension: '',
+  dimension: ' small ',
   cathegory: {
     name: 'Tipy na výlety',
     link: 'tipy-vylety-all.html',
@@ -197,7 +212,7 @@ export const overviews = [
   readMore: 'Číst dále',
 },{//článek - Termální lázně Štúrovo
   articleId: 'tnv-laznesturovo',
-  dimension: '  ',
+  dimension: ' small ',
   cathegory: {
     name: 'Tipy na výlety',
     link: 'tipy-vylety-all.html',

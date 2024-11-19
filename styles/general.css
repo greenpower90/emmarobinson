@@ -120,7 +120,7 @@ a, a:hover, a:active, a:visited, a:focus {
   display: flex;
   flex-direction: column;
   padding: 5px 5px;
-  grid-row: span 2;
+  grid-row: span 5;
 }
 
 .article-container:hover{
@@ -129,15 +129,15 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .tall{
-  grid-row: span 3;
+  grid-row: span 7;
 }
 
 .small{
-  grid-row: span 1;
+  grid-row: span 4;
 }
 
 .middle{
-  grid-row: span 2;
+  grid-row: span 4;
 }
 
 .wide{
