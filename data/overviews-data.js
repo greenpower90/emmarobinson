@@ -12,7 +12,7 @@ export const overviews = [
   pictureAlt:'',
   articleLink:'vzkazy-v-lahvi/domluvte-se-s-kubim.html',
   title: 'Domluvte se s Kubim',
-  text: 'Asistence se také plánují dopředu, to nelze jinak. Ale zdravotní stav se naplánovat nedá. Doma to nevadí. Není potřeba nikam nikoho vláčet. Nemusí jíst, když nechce, někam chodit, když nechce. Kuba není z těch, co volá za každou cenu po společnosti dalších klientů, naopak. Má rád svůj klid, čím je starší, tím víc. Je v centru svého vlastního života, ve svém doma a ta služba a program tomu odpovídá.',
+  text: 'Jestli se bude chtít vykoupat, nebo pojedete na chvilku ven, nebo si budete číst… a jestli se Vám bude chtít upéct ten štrůdl… uvidíte. Včera Jakub celý den proležel, byla u nás na tři hoďky Majda, četli si. Dnes je tu Rachel, zkušená asistentka, s Kubou se dobře znají. Rachel je zaučená tak, že už nemusí myslet na to, co se jak dělá. Už dávno s Jakubem tvoří příjemný tandem a atmosféru kamarádství. Můžu v klidu odejít.',
   readMore: 'Číst dále',
 },{//článek - Pane Bože jenom to ne - říjen 2023
     articleId: 'vvl-narozeniny',
