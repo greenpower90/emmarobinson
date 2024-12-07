@@ -800,3 +800,95 @@ export const galleryStepanLohr = [
     },
   },
   ]
+
+  export const galleryZenaRoku = [
+    {
+      id:'gal-zr-001',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-001small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-001full.JPG',
+      },
+      dimension: {
+        spanRow:'middle-to-small',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-002',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-002small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-002full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-003',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-003small.jpg',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-003full.jpg',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-004',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-004small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-004full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-005',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-005small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-005full.JPG',
+      },
+      dimension: {
+        spanRow:'middle',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-006',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-006small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-006full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-zr-007',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-007small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-007full.JPG',
+      },
+      dimension: {
+        spanRow:'middle',
+        spanCollumn: 'wide'
+      },
+    },{
+      id:'gal-zr-008',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-008small.JPG',
+        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-008full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    }
+    ]
