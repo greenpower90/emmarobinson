@@ -918,8 +918,8 @@ export const galleryStepanLohr = [
       id:'gal-Rehab-011',
       alt: '',
       fileLocation:{
-        small:'../gallery/rehabilitace/gal-rehab-011small.JPEG',
-        full:'../gallery/rehabilitace/gal-rehab-011full.JPEG',
+        small:'../gallery/rehabilitace/gal-rehab-011small.jpeg',
+        full:'../gallery/rehabilitace/gal-rehab-011full.jpeg',
       },
       dimension: {
         spanRow:'',
@@ -951,8 +951,8 @@ export const galleryStepanLohr = [
       id:'gal-Rehab-014',
       alt: '',
       fileLocation:{
-        small:'../gallery/rehabilitace/gal-rehab-014small.jpg',
-        full:'../gallery/rehabilitace/gal-rehab-014full.jpg',
+        small:'../gallery/rehabilitace/gal-rehab-014small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-014full.JPG',
       },
       dimension: {
         spanRow:'',
