@@ -801,90 +801,191 @@ export const galleryStepanLohr = [
   },
   ]
 
-  export const galleryZenaRoku = [
+
+
+  export const galleryRehabilitace = [
     {
-      id:'gal-zr-001',
+      id:'gal-Rehab-001',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-001small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-001full.JPG',
-      },
-      dimension: {
-        spanRow:'middle-to-small',
-        spanCollumn: ''
-      },
-    },{
-      id:'gal-zr-002',
-      alt: '',
-      fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-002small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-002full.JPG',
+        small:'../gallery/rehabilitace/gal-rehab-001small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-001full.jpg',
       },
       dimension: {
         spanRow:'',
         spanCollumn: ''
       },
     },{
-      id:'gal-zr-003',
+      id:'gal-Rehab-002',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-003small.jpg',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-003full.jpg',
+        small:'../gallery/rehabilitace/gal-rehab-002small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-002full.jpg',
+      },
+      dimension: {
+        spanRow:' middle-to-small ',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-003',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-003small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-003full.jpg',
+      },
+      dimension: {
+        spanRow:' middle-to-small ',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-004',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-004small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-004full.JPG',
       },
       dimension: {
         spanRow:'',
         spanCollumn: ''
       },
     },{
-      id:'gal-zr-004',
+      id:'gal-Rehab-005',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-004small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-004full.JPG',
+        small:'../gallery/rehabilitace/gal-rehab-005small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-005full.JPG',
       },
       dimension: {
         spanRow:'',
         spanCollumn: ''
       },
     },{
-      id:'gal-zr-005',
+      id:'gal-Rehab-006',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-005small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-005full.JPG',
-      },
-      dimension: {
-        spanRow:'middle',
-        spanCollumn: ''
-      },
-    },{
-      id:'gal-zr-006',
-      alt: '',
-      fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-006small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-006full.JPG',
+        small:'../gallery/rehabilitace/gal-rehab-006small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-006full.JPG',
       },
       dimension: {
         spanRow:'',
         spanCollumn: ''
       },
     },{
-      id:'gal-zr-007',
+      id:'gal-Rehab-007',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-007small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-007full.JPG',
+        small:'../gallery/rehabilitace/gal-rehab-007small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-007full.JPEG',
       },
       dimension: {
-        spanRow:'middle',
-        spanCollumn: 'wide'
+        spanRow:'',
+        spanCollumn: ''
       },
     },{
-      id:'gal-zr-008',
+      id:'gal-Rehab-008',
       alt: '',
       fileLocation:{
-        small:'../gallery/pohledem_stepana_lohra/gal-sl-img-008small.JPG',
-        full:'../gallery/pohledem_stepana_lohra/gal-sl-img-008full.JPG',
+        small:'../gallery/rehabilitace/gal-rehab-008small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-008full.JPEG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-009',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-009small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-009full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-010',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-010small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-010full.JPEG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-011',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-011small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-011full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ' wide '
+      },
+    },{
+      id:'gal-Rehab-012',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-012small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-012full.JPEG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-013',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-013small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-013full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-014',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-014small.jpeg',
+        full:'../gallery/rehabilitace/gal-rehab-014full.jpeg',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-015',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-015small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-015full.JPEG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-016',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-016small.JPEG',
+        full:'../gallery/rehabilitace/gal-rehab-016full.JPEG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-017',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-017small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-017full.JPG',
       },
       dimension: {
         spanRow:'',
