@@ -991,5 +991,49 @@ export const galleryStepanLohr = [
         spanRow:'',
         spanCollumn: ''
       },
+    },{
+      id:'gal-Rehab-018',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-018small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-018full.jpg',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-019',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-019small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-019full.jpg',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-020',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-020small.JPG',
+        full:'../gallery/rehabilitace/gal-rehab-020full.JPG',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
+    },{
+      id:'gal-Rehab-021',
+      alt: '',
+      fileLocation:{
+        small:'../gallery/rehabilitace/gal-rehab-021small.jpg',
+        full:'../gallery/rehabilitace/gal-rehab-021full.jpg',
+      },
+      dimension: {
+        spanRow:'',
+        spanCollumn: ''
+      },
     }
     ]
