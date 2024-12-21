@@ -39,7 +39,7 @@ export const quotes =
   {
 
   quote: `"Být pochopen je jedna z nejvyšších forem intimity."`,
-  writer: ``
+  writer: `Toko-pa Turner`
   },
   {
 
@@ -65,6 +65,10 @@ export const quotes =
   quote: `"Bez jedinýho slova tě naučim všechno, co potřebuješ vědět o tomto světě."`,
   writer: `Kuba z Duba`
     },
+  {
+    quote: `"Být optimistou může být hloupé, ale být pesimistou je ztráta času"`,
+    writer: ``
+  },
 ]
 
 
